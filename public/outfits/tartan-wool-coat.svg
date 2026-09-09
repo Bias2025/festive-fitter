@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Tartan Wool Coat illustration">
+  <defs><linearGradient id="g-tartan-wool-coat" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eee9e0"/>
+  </linearGradient></defs>
+  <rect width="400" height="500" fill="url(#g-tartan-wool-coat)"/>
+  <ellipse cx="200" cy="486" rx="120" ry="20" fill="#1c1a17" opacity="0.12"/>
+  <clipPath id="t-tartan-wool-coat"><path d="M154 176
+    q46 -14 92 0
+    l4 254
+    q-46 12 -96 0 Z"/></clipPath>
+  
+  
+  <rect x="134" y="180" width="20" height="150" rx="10" fill="#6E2A38"/>
+    <rect x="246" y="180" width="20" height="150" rx="10" fill="#6E2A38"/>
+    <circle cx="144" cy="326" r="9" fill="#D69A6A"/>
+    <circle cx="256" cy="326" r="9" fill="#D69A6A"/>
+  <path d="M154 176
+    q46 -14 92 0
+    l4 254
+    q-46 12 -96 0 Z" fill="#6E2A38" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
+  <g clip-path="url(#t-tartan-wool-coat)"><g stroke="#1B4332" stroke-width="4" opacity="0.55"><line x1="-100" y1="176" x2="154" y2="430"/><line x1="-84" y1="176" x2="170" y2="430"/><line x1="-68" y1="176" x2="186" y2="430"/><line x1="-52" y1="176" x2="202" y2="430"/><line x1="-36" y1="176" x2="218" y2="430"/><line x1="-20" y1="176" x2="234" y2="430"/><line x1="-4" y1="176" x2="250" y2="430"/><line x1="12" y1="176" x2="266" y2="430"/><line x1="28" y1="176" x2="282" y2="430"/><line x1="44" y1="176" x2="298" y2="430"/><line x1="60" y1="176" x2="314" y2="430"/><line x1="76" y1="176" x2="330" y2="430"/><line x1="92" y1="176" x2="346" y2="430"/><line x1="108" y1="176" x2="362" y2="430"/><line x1="124" y1="176" x2="378" y2="430"/><line x1="140" y1="176" x2="394" y2="430"/><line x1="156" y1="176" x2="410" y2="430"/><line x1="172" y1="176" x2="426" y2="430"/><line x1="188" y1="176" x2="442" y2="430"/><line x1="204" y1="176" x2="458" y2="430"/><line x1="220" y1="176" x2="474" y2="430"/><line x1="236" y1="176" x2="490" y2="430"/><line x1="504" y1="176" x2="250" y2="430"/><line x1="488" y1="176" x2="234" y2="430"/><line x1="472" y1="176" x2="218" y2="430"/><line x1="456" y1="176" x2="202" y2="430"/><line x1="440" y1="176" x2="186" y2="430"/><line x1="424" y1="176" x2="170" y2="430"/><line x1="408" y1="176" x2="154" y2="430"/><line x1="392" y1="176" x2="138" y2="430"/><line x1="376" y1="176" x2="122" y2="430"/><line x1="360" y1="176" x2="106" y2="430"/><line x1="344" y1="176" x2="90" y2="430"/><line x1="328" y1="176" x2="74" y2="430"/><line x1="312" y1="176" x2="58" y2="430"/><line x1="296" y1="176" x2="42" y2="430"/><line x1="280" y1="176" x2="26" y2="430"/><line x1="264" y1="176" x2="10" y2="430"/><line x1="248" y1="176" x2="-6" y2="430"/><line x1="232" y1="176" x2="-22" y2="430"/><line x1="216" y1="176" x2="-38" y2="430"/><line x1="200" y1="176" x2="-54" y2="430"/><line x1="184" y1="176" x2="-70" y2="430"/><line x1="168" y1="176" x2="-86" y2="430"/></g></g>
+  <rect x="192" y="150" width="16" height="30" fill="#D69A6A"/>
+  <path d="M156 118 q44 -60 88 0 l8 96 q-16 8 -22 -4 l-6 -70 q-28 14 -60 0 l-6 70 q-6 12 -22 4 Z" fill="#C9A15A"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#D69A6A"/>
+  <path d="M166 106 q34 -30 68 0 q-8 -14 -34 -14 q-26 0 -34 14 Z" fill="#C9A15A"/>
+  <path d="M154 100 q46 -54 92 0 Z" fill="#E8DFC8"/><rect x="150" y="92" width="100" height="16" rx="6" fill="#E8DFC8"/><rect x="150" y="92" width="100" height="16" rx="6" fill="#C1272D" opacity="0.25"/>
+  
+</svg>

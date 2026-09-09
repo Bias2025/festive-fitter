@@ -56,14 +56,6 @@
     "prompt": "a black cat-ear headband and a matching curved black tail, worn with an all-black outfit"
   },
   {
-    "id": "santa",
-    "label": "Santa Suit",
-    "season": "christmas",
-    "category": "costume",
-    "thumbnail": "/outfits/santa.svg",
-    "prompt": "a classic red and white Santa suit with a black belt, white fur trim, and a red Santa hat"
-  },
-  {
     "id": "mrs-claus",
     "label": "Mrs. Claus Dress",
     "season": "christmas",
@@ -72,36 +64,20 @@
     "prompt": "a red Mrs. Claus dress with white faux-fur trim on the cuffs and hem, a fitted bodice, a white lace apron, and a matching bonnet"
   },
   {
-    "id": "elf",
-    "label": "Elf Outfit",
+    "id": "silver-statement-jacket",
+    "label": "Silver Statement Jacket",
     "season": "christmas",
     "category": "costume",
-    "thumbnail": "/outfits/elf.svg",
-    "prompt": "a green and red elf tunic with a pointed collar, striped tights, and a curled-toe elf hat"
-  },
-  {
-    "id": "nutcracker",
-    "label": "Nutcracker Uniform",
-    "season": "christmas",
-    "category": "costume",
-    "thumbnail": "/outfits/nutcracker.svg",
-    "prompt": "a navy and gold nutcracker soldier uniform with braided epaulettes and brass buttons"
-  },
-  {
-    "id": "gingerbread",
-    "label": "Gingerbread Costume",
-    "season": "christmas",
-    "category": "costume",
-    "thumbnail": "/outfits/gingerbread.svg",
-    "prompt": "a warm brown gingerbread-man costume with white piped icing trim along the edges, three round gumdrop buttons, and a scalloped collar"
+    "thumbnail": "/outfits/silver-statement-jacket.svg",
+    "prompt": "a structured metallic-silver moto jacket with a high funnel collar, sharp padded shoulders, and geometric seams lit with thin red LED piping, worn with pleated bright-red wide-leg trousers"
   },
   {
     "id": "sweater",
-    "label": "Fair Isle Sweater",
+    "label": "Cream Turtleneck Knit",
     "season": "christmas",
     "category": "sweater",
     "thumbnail": "/outfits/sweater.svg",
-    "prompt": "a cream and burgundy fair isle knit Christmas sweater with a snowflake pattern"
+    "prompt": "a chunky cream cable-knit turtleneck sweater with a thick rolled neck, dropped shoulders, and ribbed cuffs"
   },
   {
     "id": "cream-sweater-dress",
@@ -286,5 +262,61 @@
     "category": "accessory",
     "thumbnail": "/outfits/plaid-scarf.svg",
     "prompt": "a large red and green tartan plaid wool blanket scarf with fringed ends, draped over the shoulders"
+  },
+  {
+    "id": "green-velvet-tuxedo",
+    "label": "Green Velvet Tuxedo",
+    "season": "christmas",
+    "category": "suiting",
+    "thumbnail": "/outfits/green-velvet-tuxedo.svg",
+    "prompt": "a deep-green velvet tuxedo jacket with black satin peak lapels and covered buttons, worn with a white pleated-front dress shirt, a black bow tie, a white pocket square, and black tuxedo trousers"
+  },
+  {
+    "id": "burgundy-snowflake-coat",
+    "label": "Snowflake Overcoat",
+    "season": "christmas",
+    "category": "outerwear",
+    "thumbnail": "/outfits/burgundy-snowflake-coat.svg",
+    "prompt": "a long burgundy wool overcoat with peak lapels and large metallic-gold and silver snowflakes embroidered down the front and one sleeve, worn open over a black turtleneck and black trousers"
+  },
+  {
+    "id": "tartan-wool-coat",
+    "label": "Tartan Wool Coat",
+    "season": "christmas",
+    "category": "outerwear",
+    "thumbnail": "/outfits/tartan-wool-coat.svg",
+    "prompt": "a knee-length double-breasted tartan wool trench coat in deep burgundy and green plaid, with a self belt, notch lapels, and epaulettes, worn with a brown felt fedora"
+  },
+  {
+    "id": "black-wool-overcoat",
+    "label": "Black Wool Overcoat",
+    "season": "christmas",
+    "category": "outerwear",
+    "thumbnail": "/outfits/black-wool-overcoat.svg",
+    "prompt": "a tailored black double-breasted wool overcoat that falls below the knee, with peak lapels and a six-button front, worn with black leather gloves"
+  },
+  {
+    "id": "puffer-jacket",
+    "label": "Colourblock Puffer",
+    "season": "christmas",
+    "category": "outerwear",
+    "thumbnail": "/outfits/puffer-jacket.svg",
+    "prompt": "a glossy black and tan colourblock down puffer jacket with a stand collar, horizontal quilting, gold-tone zip, worn with slim black trousers"
+  },
+  {
+    "id": "plaid-flannel-shirt",
+    "label": "Plaid Flannel Shirt",
+    "season": "christmas",
+    "category": "loungewear",
+    "thumbnail": "/outfits/plaid-flannel-shirt.svg",
+    "prompt": "a relaxed brown, black and cream plaid flannel button-up shirt with a chest pocket and rolled sleeves, worn untucked over dark indigo jeans"
+  },
+  {
+    "id": "velvet-robe",
+    "label": "Velvet Robe",
+    "season": "christmas",
+    "category": "loungewear",
+    "thumbnail": "/outfits/velvet-robe.svg",
+    "prompt": "a long burgundy crushed-velvet dressing gown with a shawl collar, wide tie belt, and deep patch pockets, falling to mid-calf"
   }
 ]

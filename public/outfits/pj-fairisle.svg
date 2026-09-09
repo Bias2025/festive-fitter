@@ -13,17 +13,17 @@
        <rect x="204" y="326" width="22" height="150" rx="9" fill="#E8DFC8"/>
   <rect x="150" y="180" width="20" height="150" rx="10" fill="#E8DFC8"/>
     <rect x="230" y="180" width="20" height="150" rx="10" fill="#E8DFC8"/>
-    <circle cx="160" cy="326" r="9" fill="#B87A4B"/>
-    <circle cx="240" cy="326" r="9" fill="#B87A4B"/>
+    <circle cx="160" cy="326" r="9" fill="#F4D2B4"/>
+    <circle cx="240" cy="326" r="9" fill="#F4D2B4"/>
   <path d="M170 176
     q30 -14 60 0
     l4 154
     q-30 12 -64 0 Z" fill="#E8DFC8" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
   <g clip-path="url(#t-pj-fairisle)"><g fill="#2F4B3F" opacity="0.8"><path d="M178 198 l7 -9 l7 9 l-7 9 Z"/><path d="M196 198 l7 -9 l7 9 l-7 9 Z"/><path d="M214 198 l7 -9 l7 9 l-7 9 Z"/><path d="M178 224 l7 -9 l7 9 l-7 9 Z"/><path d="M196 224 l7 -9 l7 9 l-7 9 Z"/><path d="M214 224 l7 -9 l7 9 l-7 9 Z"/><path d="M178 250 l7 -9 l7 9 l-7 9 Z"/><path d="M196 250 l7 -9 l7 9 l-7 9 Z"/><path d="M214 250 l7 -9 l7 9 l-7 9 Z"/></g></g>
-  <rect x="192" y="150" width="16" height="30" fill="#B87A4B"/>
-  <circle cx="200" cy="108" r="46" fill="#3A2413"/><circle cx="200" cy="130" r="42" fill="#3A2413"/>
-  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#B87A4B"/>
-  
+  <rect x="192" y="150" width="16" height="30" fill="#F4D2B4"/>
+  <path d="M156 118 q44 -60 88 0 l8 96 q-16 8 -22 -4 l-6 -70 q-28 14 -60 0 l-6 70 q-6 12 -22 4 Z" fill="#3A2413"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#F4D2B4"/>
+  <path d="M166 106 q34 -30 68 0 q-8 -14 -34 -14 q-26 0 -34 14 Z" fill="#3A2413"/>
   
   
 </svg>

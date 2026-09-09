@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Black Wool Overcoat illustration">
+  <defs><linearGradient id="g-black-wool-overcoat" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eee9e0"/>
+  </linearGradient></defs>
+  <rect width="400" height="500" fill="url(#g-black-wool-overcoat)"/>
+  <ellipse cx="200" cy="486" rx="120" ry="20" fill="#1c1a17" opacity="0.12"/>
+  <clipPath id="t-black-wool-overcoat"><path d="M170 176
+    q30 -14 60 0
+    l4 254
+    q-30 12 -64 0 Z"/></clipPath>
+  
+  
+  <rect x="150" y="180" width="20" height="150" rx="10" fill="#161616"/>
+    <rect x="230" y="180" width="20" height="150" rx="10" fill="#161616"/>
+    <circle cx="160" cy="326" r="9" fill="#B87A4B"/>
+    <circle cx="240" cy="326" r="9" fill="#B87A4B"/>
+  <path d="M170 176
+    q30 -14 60 0
+    l4 254
+    q-30 12 -64 0 Z" fill="#161616" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
+  <g clip-path="url(#t-black-wool-overcoat)"><g fill="#3A3A3A"><circle cx="202" cy="196" r="5"/><circle cx="202" cy="224" r="5"/><circle cx="202" cy="252" r="5"/></g><rect x="176" y="176" width="10" height="254" fill="#3A3A3A"/><rect x="218" y="176" width="10" height="254" fill="#3A3A3A"/></g>
+  <rect x="192" y="150" width="16" height="30" fill="#B87A4B"/>
+  <ellipse cx="200" cy="118" rx="42" ry="46" fill="#4A2C12"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#B87A4B"/>
+  <path d="M164 108 q36 -34 72 0 q-10 -16 -36 -16 q-26 0 -36 16 Z" fill="#4A2C12"/>
+  
+  
+</svg>
