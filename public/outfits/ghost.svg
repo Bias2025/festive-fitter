@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Ghost Sheet illustration">
+  <defs><linearGradient id="g-ghost" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2C3038"/><stop offset="1" stop-color="#0d0a09"/>
+  </linearGradient></defs>
+  <rect width="400" height="500" fill="url(#g-ghost)"/>
+  <ellipse cx="200" cy="486" rx="120" ry="22" fill="#000" opacity="0.25"/>
+  <clipPath id="t-ghost"><path d="M162 176
+    q38 -14 76 0
+    l4 154
+    q-38 12 -80 0 Z"/></clipPath>
+  
+  <rect x="166" y="326" width="30" height="150" rx="9" fill="#8D5A34"/>
+       <rect x="204" y="326" width="30" height="150" rx="9" fill="#8D5A34"/>
+  <rect x="142" y="180" width="20" height="150" rx="10" fill="#F2F0EA"/>
+    <rect x="238" y="180" width="20" height="150" rx="10" fill="#F2F0EA"/>
+    <circle cx="152" cy="326" r="9" fill="#8D5A34"/>
+    <circle cx="248" cy="326" r="9" fill="#8D5A34"/>
+  <path d="M162 176
+    q38 -14 76 0
+    l4 154
+    q-38 12 -80 0 Z" fill="#F2F0EA"/>
+  <g clip-path="url(#t-ghost)"></g>
+  <rect x="192" y="150" width="16" height="30" fill="#8D5A34"/>
+  <path d="M156 118 q44 -60 88 0 l8 96 q-16 8 -22 -4 l-6 -70 q-28 14 -60 0 l-6 70 q-6 12 -22 4 Z" fill="#0C0C0C"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#8D5A34"/>
+  <path d="M166 106 q34 -30 68 0 q-8 -14 -34 -14 q-26 0 -34 14 Z" fill="#0C0C0C"/>
+  
+  
+</svg>

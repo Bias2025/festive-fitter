@@ -1,9 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500">
-  <rect width="400" height="500" fill="#1A1010"/>
-  <rect x="24" y="24" width="352" height="452" fill="none" stroke="#8A1538" stroke-width="2" stroke-dasharray="6 6"/>
-  <g transform="translate(200,220)">
-    <path d="M -60 -80 L 60 -80 L 80 -40 L 40 -30 L 40 140 L -40 140 L -40 -30 L -80 -40 Z" fill="#8A1538" opacity="0.85"/>
-  </g>
-  <text x="200" y="420" font-family="Georgia, serif" font-size="22" fill="#8A1538" text-anchor="middle">Vampire Cape</text>
-  <text x="200" y="450" font-family="Georgia, serif" font-size="12" fill="#8A1538" opacity="0.6" text-anchor="middle">placeholder — replace with real flat-lay photo</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Vampire Cape illustration">
+  <defs><linearGradient id="g-vampire" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#340B10"/><stop offset="1" stop-color="#0d0a09"/>
+  </linearGradient></defs>
+  <rect width="400" height="500" fill="url(#g-vampire)"/>
+  <ellipse cx="200" cy="486" rx="120" ry="22" fill="#000" opacity="0.25"/>
+  <clipPath id="t-vampire"><path d="M162 176
+    q38 -14 76 0
+    l4 154
+    q-38 12 -80 0 Z"/></clipPath>
+  <path d="M154 176 L140 350 L200 330 L260 350 L246 176 Z" fill="#B01E2E" opacity="0.35"/>
+  <rect x="166" y="326" width="30" height="150" rx="9" fill="#E7B58C"/>
+       <rect x="204" y="326" width="30" height="150" rx="9" fill="#E7B58C"/>
+  <rect x="142" y="180" width="20" height="150" rx="10" fill="#0E0E12"/>
+    <rect x="238" y="180" width="20" height="150" rx="10" fill="#0E0E12"/>
+    <circle cx="152" cy="326" r="9" fill="#E7B58C"/>
+    <circle cx="248" cy="326" r="9" fill="#E7B58C"/>
+  <path d="M162 176
+    q38 -14 76 0
+    l4 154
+    q-38 12 -80 0 Z" fill="#0E0E12"/>
+  <g clip-path="url(#t-vampire)"><path d="M154 176 L140 350 L202 330 L264 350 L250 176 Z" fill="#B01E2E" opacity="0.35"/></g>
+  <rect x="192" y="150" width="16" height="30" fill="#E7B58C"/>
+  <ellipse cx="200" cy="118" rx="42" ry="46" fill="#0C0C0C"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#E7B58C"/>
+  <path d="M164 108 q36 -34 72 0 q-10 -16 -36 -16 q-26 0 -36 16 Z" fill="#0C0C0C"/>
+  
+  
 </svg>

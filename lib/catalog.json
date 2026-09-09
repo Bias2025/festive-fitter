@@ -1,0 +1,250 @@
+[
+  {
+    "id": "witch",
+    "label": "Witch Cloak",
+    "season": "halloween",
+    "category": "costume",
+    "thumbnail": "/outfits/witch.svg",
+    "prompt": "a flowing black witch cloak with a pointed purple-trimmed collar and a wide-brimmed witch hat"
+  },
+  {
+    "id": "vampire",
+    "label": "Vampire Cape",
+    "season": "halloween",
+    "category": "costume",
+    "thumbnail": "/outfits/vampire.svg",
+    "prompt": "a dramatic black and deep-red vampire cape over a high-collared formal shirt"
+  },
+  {
+    "id": "skeleton",
+    "label": "Skeleton Suit",
+    "season": "halloween",
+    "category": "costume",
+    "thumbnail": "/outfits/skeleton.svg",
+    "prompt": "a fitted black bodysuit printed with a realistic glow-white skeleton bone pattern"
+  },
+  {
+    "id": "pumpkin",
+    "label": "Pumpkin Costume",
+    "season": "halloween",
+    "category": "costume",
+    "thumbnail": "/outfits/pumpkin.svg",
+    "prompt": "a rounded orange pumpkin costume with green stem cap and painted jack-o-lantern face panel"
+  },
+  {
+    "id": "ghost",
+    "label": "Ghost Sheet",
+    "season": "halloween",
+    "category": "costume",
+    "thumbnail": "/outfits/ghost.svg",
+    "prompt": "a classic draped white ghost sheet costume with two cut-out eye holes and soft folds"
+  },
+  {
+    "id": "devil",
+    "label": "Devil Costume",
+    "season": "halloween",
+    "category": "costume",
+    "thumbnail": "/outfits/devil.svg",
+    "prompt": "a sleek red devil costume with a structured caped jacket, pointed collar, and a slim tail"
+  },
+  {
+    "id": "cat-ears",
+    "label": "Cat Ears & Tail",
+    "season": "halloween",
+    "category": "accessory",
+    "thumbnail": "/outfits/cat-ears.svg",
+    "prompt": "a black cat-ear headband and a matching curved black tail, worn with an all-black outfit"
+  },
+  {
+    "id": "santa",
+    "label": "Santa Suit",
+    "season": "christmas",
+    "category": "costume",
+    "thumbnail": "/outfits/santa.svg",
+    "prompt": "a classic red and white Santa suit with a black belt, white fur trim, and a red Santa hat"
+  },
+  {
+    "id": "mrs-claus",
+    "label": "Mrs. Claus Dress",
+    "season": "christmas",
+    "category": "costume",
+    "thumbnail": "/outfits/mrs-claus.svg",
+    "prompt": "a red Mrs. Claus dress with white faux-fur trim on the cuffs and hem, a fitted bodice, a white lace apron, and a matching bonnet"
+  },
+  {
+    "id": "elf",
+    "label": "Elf Outfit",
+    "season": "christmas",
+    "category": "costume",
+    "thumbnail": "/outfits/elf.svg",
+    "prompt": "a green and red elf tunic with a pointed collar, striped tights, and a curled-toe elf hat"
+  },
+  {
+    "id": "nutcracker",
+    "label": "Nutcracker Uniform",
+    "season": "christmas",
+    "category": "costume",
+    "thumbnail": "/outfits/nutcracker.svg",
+    "prompt": "a navy and gold nutcracker soldier uniform with braided epaulettes and brass buttons"
+  },
+  {
+    "id": "gingerbread",
+    "label": "Gingerbread Costume",
+    "season": "christmas",
+    "category": "costume",
+    "thumbnail": "/outfits/gingerbread.svg",
+    "prompt": "a warm brown gingerbread-man costume with white piped icing trim along the edges, three round gumdrop buttons, and a scalloped collar"
+  },
+  {
+    "id": "sweater",
+    "label": "Fair Isle Sweater",
+    "season": "christmas",
+    "category": "sweater",
+    "thumbnail": "/outfits/sweater.svg",
+    "prompt": "a cream and burgundy fair isle knit Christmas sweater with a snowflake pattern"
+  },
+  {
+    "id": "cream-sweater-dress",
+    "label": "Cream Sweater Dress",
+    "season": "christmas",
+    "category": "sweater",
+    "thumbnail": "/outfits/cream-sweater-dress.svg",
+    "prompt": "a cream ribbed-knit cowl-neck sweater dress that falls to mid-thigh, with long loose sleeves and a chunky draped funnel neck"
+  },
+  {
+    "id": "camel-knit",
+    "label": "Camel Chunky Knit",
+    "season": "christmas",
+    "category": "sweater",
+    "thumbnail": "/outfits/camel-knit.svg",
+    "prompt": "an oversized camel-brown chunky cable-knit crewneck sweater with dropped shoulders and ribbed cuffs"
+  },
+  {
+    "id": "green-cable-knit",
+    "label": "Green Cable-Knit",
+    "season": "christmas",
+    "category": "sweater",
+    "thumbnail": "/outfits/green-cable-knit.svg",
+    "prompt": "a forest-green cable-knit wool sweater with a classic crew neck and a textured Aran cable pattern"
+  },
+  {
+    "id": "burgundy-henley",
+    "label": "Burgundy Waffle Henley",
+    "season": "christmas",
+    "category": "sweater",
+    "thumbnail": "/outfits/burgundy-henley.svg",
+    "prompt": "a burgundy waffle-knit long-sleeve henley top with a three-button placket and a relaxed fit"
+  },
+  {
+    "id": "green-velvet-dress",
+    "label": "Emerald Velvet Dress",
+    "season": "christmas",
+    "category": "dress",
+    "thumbnail": "/outfits/green-velvet-dress.svg",
+    "prompt": "a floor-length emerald-green velvet dress with long sleeves, a V-neck, a gathered waist, and a soft flowing skirt with subtle sheen"
+  },
+  {
+    "id": "burgundy-sequin-dress",
+    "label": "Burgundy Sequin Dress",
+    "season": "christmas",
+    "category": "dress",
+    "thumbnail": "/outfits/burgundy-sequin-dress.svg",
+    "prompt": "a burgundy sequin cocktail dress hitting above the knee, with long sleeves, a rounded neckline, and all-over light-catching sequins"
+  },
+  {
+    "id": "cream-lace-midi",
+    "label": "Cream Lace Midi",
+    "season": "christmas",
+    "category": "dress",
+    "thumbnail": "/outfits/cream-lace-midi.svg",
+    "prompt": "a cream lace midi dress with long sheer lace sleeves, a high neckline, a fitted bodice, and a tiered flowing skirt"
+  },
+  {
+    "id": "tartan-dress",
+    "label": "Red Tartan Dress",
+    "season": "christmas",
+    "category": "dress",
+    "thumbnail": "/outfits/tartan-dress.svg",
+    "prompt": "a red and green tartan plaid dress with a fitted bodice, a full pleated knee-length skirt, long sleeves, and a white Peter Pan collar"
+  },
+  {
+    "id": "pj-red-plaid",
+    "label": "Red Plaid Pyjamas",
+    "season": "christmas",
+    "category": "pyjamas",
+    "thumbnail": "/outfits/pj-red-plaid.svg",
+    "prompt": "a matching red and black buffalo-plaid flannel pyjama set with a button-up long-sleeve top and full-length pants, piped trim on the collar and cuffs"
+  },
+  {
+    "id": "pj-fairisle",
+    "label": "Fair Isle Pyjama Set",
+    "season": "christmas",
+    "category": "pyjamas",
+    "thumbnail": "/outfits/pj-fairisle.svg",
+    "prompt": "a cream knit-look pyjama set with a red and green fair isle snowflake pattern across the chest, ribbed cuffs, and a relaxed pullover top"
+  },
+  {
+    "id": "pj-reindeer-onesie",
+    "label": "Reindeer Onesie",
+    "season": "christmas",
+    "category": "pyjamas",
+    "thumbnail": "/outfits/pj-reindeer-onesie.svg",
+    "prompt": "a soft tan fleece hooded onesie with a full-length front zip, a reindeer face on the hood with felt antlers, and mitten cuffs"
+  },
+  {
+    "id": "pj-santa-lounge",
+    "label": "Santa Lounge Set",
+    "season": "christmas",
+    "category": "pyjamas",
+    "thumbnail": "/outfits/pj-santa-lounge.svg",
+    "prompt": "a plush red lounge set with white faux-fur trim on the hem and cuffs, a matching short-sleeve top and jogger-style bottoms, black ribbon belt detail at the waist"
+  },
+  {
+    "id": "pj-tartan-nightdress",
+    "label": "Tartan Nightdress",
+    "season": "christmas",
+    "category": "pyjamas",
+    "thumbnail": "/outfits/pj-tartan-nightdress.svg",
+    "prompt": "a knee-length green and navy tartan flannel nightdress with a ruffled round collar, long sleeves with ruffled cuffs, and a small ribbon bow at the neckline"
+  },
+  {
+    "id": "pj-family-plaid",
+    "label": "Family Buffalo-Plaid Set",
+    "season": "christmas",
+    "category": "pyjamas",
+    "thumbnail": "/outfits/pj-family-plaid.svg",
+    "prompt": "a classic red and black buffalo-check pyjama set, notch-collar button-up long-sleeve top and matching straight-leg pants, black piping on the collar and pocket"
+  },
+  {
+    "id": "pj-white-waffle",
+    "label": "White Waffle Set",
+    "season": "christmas",
+    "category": "pyjamas",
+    "thumbnail": "/outfits/pj-white-waffle.svg",
+    "prompt": "an ivory waffle-knit pyjama set with a henley button top and cuffed jogger bottoms, tonal stitching, soft and cozy"
+  },
+  {
+    "id": "santa-hat",
+    "label": "Santa Hat",
+    "season": "christmas",
+    "category": "accessory",
+    "thumbnail": "/outfits/santa-hat.svg",
+    "prompt": "a red Santa hat with a white faux-fur band and a white pom-pom, worn on the head, keeping the rest of the outfit unchanged"
+  },
+  {
+    "id": "fairisle-beanie-scarf",
+    "label": "Fair Isle Beanie & Scarf",
+    "season": "christmas",
+    "category": "accessory",
+    "thumbnail": "/outfits/fairisle-beanie-scarf.svg",
+    "prompt": "a cream fair isle knit beanie with a folded brim and a matching chunky knit scarf in cream, red and green, wrapped once around the neck"
+  },
+  {
+    "id": "plaid-scarf",
+    "label": "Plaid Wool Scarf",
+    "season": "christmas",
+    "category": "accessory",
+    "thumbnail": "/outfits/plaid-scarf.svg",
+    "prompt": "a large red and green tartan plaid wool blanket scarf with fringed ends, draped over the shoulders"
+  }
+]

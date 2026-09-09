@@ -10,6 +10,7 @@ const CATEGORY_LABELS: Record<Category, string> = {
   costume: 'Costumes',
   pyjamas: 'Pyjamas',
   sweater: 'Sweaters',
+  dress: 'Dresses',
   accessory: 'Accessories'
 };
 
@@ -149,8 +150,11 @@ export default function Home() {
                 aria-pressed={selectedOutfitId === outfit.id}
                 onClick={() => setSelectedOutfitId(outfit.id)}
               >
-                <img src={outfit.thumbnail} alt={outfit.label} />
-                <div className="name">{outfit.label}</div>
+                <span className="garment-img">
+                  <img src={outfit.preview || outfit.thumbnail} alt={outfit.label} loading="lazy" />
+                  {!outfit.preview && <span className="garment-tag">preview</span>}
+                </span>
+                <span className="name">{outfit.label}</span>
               </button>
             ))}
           </div>
@@ -176,12 +180,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      <p className="footnote">
-        Outfit thumbnails on the rack are placeholders. Swap the files in <code>/public/outfits</code> and
-        the entries in <code>lib/outfits.ts</code> with real flat-lay photos or product shots for
-        noticeably better, more accurate results.
-      </p>
     </div>
   );
 }

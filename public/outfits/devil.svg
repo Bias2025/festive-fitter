@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Devil Costume illustration">
+  <defs><linearGradient id="g-devil" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#340B10"/><stop offset="1" stop-color="#0d0a09"/>
+  </linearGradient></defs>
+  <rect width="400" height="500" fill="url(#g-devil)"/>
+  <ellipse cx="200" cy="486" rx="120" ry="22" fill="#000" opacity="0.25"/>
+  <clipPath id="t-devil"><path d="M154 176
+    q46 -14 92 0
+    l4 154
+    q-46 12 -96 0 Z"/></clipPath>
+  <path d="M146 176 L132 350 L200 330 L268 350 L254 176 Z" fill="#6E0F16" opacity="0.35"/>
+  <rect x="158" y="326" width="38" height="150" rx="9" fill="#5E3A22"/>
+       <rect x="204" y="326" width="38" height="150" rx="9" fill="#5E3A22"/>
+  <rect x="134" y="180" width="20" height="150" rx="10" fill="#B01E2E"/>
+    <rect x="246" y="180" width="20" height="150" rx="10" fill="#B01E2E"/>
+    <circle cx="144" cy="326" r="9" fill="#5E3A22"/>
+    <circle cx="256" cy="326" r="9" fill="#5E3A22"/>
+  <path d="M154 176
+    q46 -14 92 0
+    l4 154
+    q-46 12 -96 0 Z" fill="#B01E2E"/>
+  <g clip-path="url(#t-devil)"><path d="M146 176 L132 350 L202 330 L272 350 L258 176 Z" fill="#6E0F16" opacity="0.35"/></g>
+  <rect x="192" y="150" width="16" height="30" fill="#5E3A22"/>
+  <ellipse cx="200" cy="118" rx="42" ry="46" fill="#6B3B1E"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#5E3A22"/>
+  <path d="M164 108 q36 -34 72 0 q-10 -16 -36 -16 q-26 0 -36 16 Z" fill="#6B3B1E"/>
+  <path d="M168 92 q-12 -30 -2 -44 q14 16 14 40 Z" fill="#6E0F16"/><path d="M232 92 q12 -30 2 -44 q-14 16 -14 40 Z" fill="#6E0F16"/>
+  
+</svg>

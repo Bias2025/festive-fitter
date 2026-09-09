@@ -1,9 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500">
-  <rect width="400" height="500" fill="#6B4E2E"/>
-  <rect x="24" y="24" width="352" height="452" fill="none" stroke="#F2E9DC" stroke-width="2" stroke-dasharray="6 6"/>
-  <g transform="translate(200,210)">
-    <path d="M -60 -80 L 60 -80 L 80 -40 L 44 -30 L 44 60 L 34 60 L 34 150 L 4 150 L 4 70 L -4 70 L -4 150 L -34 150 L -34 60 L -44 60 L -44 -30 L -80 -40 Z" fill="#F2E9DC" opacity="0.85"/>
-  </g>
-  <text x="200" y="420" font-family="Georgia, serif" font-size="22" fill="#F2E9DC" text-anchor="middle">Reindeer Onesie</text>
-  <text x="200" y="450" font-family="Georgia, serif" font-size="12" fill="#F2E9DC" opacity="0.6" text-anchor="middle">placeholder — replace with real flat-lay photo</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Reindeer Onesie illustration">
+  <defs><linearGradient id="g-pj-reindeer-onesie" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4A3721"/><stop offset="1" stop-color="#0d0a09"/>
+  </linearGradient></defs>
+  <rect width="400" height="500" fill="url(#g-pj-reindeer-onesie)"/>
+  <ellipse cx="200" cy="486" rx="120" ry="22" fill="#000" opacity="0.25"/>
+  <clipPath id="t-pj-reindeer-onesie"><path d="M154 176
+    q46 -14 92 0
+    l4 154
+    q-46 12 -96 0 Z"/></clipPath>
+  
+  <rect x="158" y="326" width="38" height="150" rx="9" fill="#BB8B5C"/>
+       <rect x="204" y="326" width="38" height="150" rx="9" fill="#BB8B5C"/>
+  <rect x="134" y="180" width="20" height="150" rx="10" fill="#BB8B5C"/>
+    <rect x="246" y="180" width="20" height="150" rx="10" fill="#BB8B5C"/>
+    <circle cx="144" cy="326" r="9" fill="#5E3A22"/>
+    <circle cx="256" cy="326" r="9" fill="#5E3A22"/>
+  <path d="M154 176
+    q46 -14 92 0
+    l4 154
+    q-46 12 -96 0 Z" fill="#BB8B5C"/>
+  <g clip-path="url(#t-pj-reindeer-onesie)"></g>
+  <rect x="192" y="150" width="16" height="30" fill="#5E3A22"/>
+  <circle cx="200" cy="108" r="46" fill="#C9A15A"/><circle cx="200" cy="130" r="42" fill="#C9A15A"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#5E3A22"/>
+  
+  <path d="M172 86 q-24 -18 -30 -44 q22 6 30 26 M172 70 q-18 -6 -24 -22" stroke="#6B4226" stroke-width="5" fill="none"/><path d="M228 86 q24 -18 30 -44 q-22 6 -30 26 M228 70 q18 -6 24 -22" stroke="#6B4226" stroke-width="5" fill="none"/>
+  
 </svg>

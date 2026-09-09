@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "thumbnails": "node scripts/gen-thumbnails.mjs",
+    "previews": "node scripts/generate-previews.mjs"
   },
   "dependencies": {
     "next": "14.2.5",

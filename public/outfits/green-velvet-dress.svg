@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Emerald Velvet Dress illustration">
+  <defs><linearGradient id="g-green-velvet-dress" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0F2E22"/><stop offset="1" stop-color="#0d0a09"/>
+  </linearGradient></defs>
+  <rect width="400" height="500" fill="url(#g-green-velvet-dress)"/>
+  <ellipse cx="200" cy="486" rx="120" ry="22" fill="#000" opacity="0.25"/>
+  <clipPath id="t-green-velvet-dress"><path d="M154 176
+    q46 -14 92 0
+    l4 254
+    q-46 12 -96 0 Z"/></clipPath>
+  
+  
+  <rect x="134" y="180" width="20" height="150" rx="10" fill="#12513A"/>
+    <rect x="246" y="180" width="20" height="150" rx="10" fill="#12513A"/>
+    <circle cx="144" cy="326" r="9" fill="#5E3A22"/>
+    <circle cx="256" cy="326" r="9" fill="#5E3A22"/>
+  <path d="M154 176
+    q46 -14 92 0
+    l4 254
+    q-46 12 -96 0 Z" fill="#12513A"/>
+  <g clip-path="url(#t-green-velvet-dress)"></g>
+  <rect x="192" y="150" width="16" height="30" fill="#5E3A22"/>
+  <ellipse cx="200" cy="118" rx="42" ry="46" fill="#6B3B1E"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#5E3A22"/>
+  <path d="M164 108 q36 -34 72 0 q-10 -16 -36 -16 q-26 0 -36 16 Z" fill="#6B3B1E"/>
+  
+  
+</svg>

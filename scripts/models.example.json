@@ -1,0 +1,16 @@
+{
+  "_comment": "Copy to scripts/models.json and fill in real photos. Aim for a roster that spans skin tones, ages, body types and genders so the generated rack previews read as diverse. `photo` is a project-relative path (e.g. scripts/models/aisha.jpg) or an https URL to a clear, front-facing, full-or-upper-body shot on a plain background.",
+  "models": [
+    { "id": "m1", "label": "deep skin, 30s, curvy, femme", "photo": "scripts/models/m1.jpg" },
+    { "id": "m2", "label": "light skin, 20s, slim, masc", "photo": "scripts/models/m2.jpg" },
+    { "id": "m3", "label": "medium-deep skin, 40s, mid, femme", "photo": "scripts/models/m3.jpg" },
+    { "id": "m4", "label": "medium skin, 50s, fuller, masc", "photo": "scripts/models/m4.jpg" },
+    { "id": "m5", "label": "light-medium skin, 20s, mid, femme", "photo": "scripts/models/m5.jpg" },
+    { "id": "m6", "label": "deep skin, teen, slim, masc", "photo": "scripts/models/m6.jpg" }
+  ],
+  "overrides": {
+    "_comment": "Optional: pin a specific model to a specific outfit id.",
+    "mrs-claus": "m3",
+    "santa": "m4"
+  }
+}

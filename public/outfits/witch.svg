@@ -1,9 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500">
-  <rect width="400" height="500" fill="#3D1F5C"/>
-  <rect x="24" y="24" width="352" height="452" fill="none" stroke="#D9622B" stroke-width="2" stroke-dasharray="6 6"/>
-  <g transform="translate(200,220)">
-    <path d="M -60 -80 L 60 -80 L 80 -40 L 40 -30 L 40 140 L -40 140 L -40 -30 L -80 -40 Z" fill="#D9622B" opacity="0.85"/>
-  </g>
-  <text x="200" y="420" font-family="Georgia, serif" font-size="22" fill="#D9622B" text-anchor="middle">Witch Cloak</text>
-  <text x="200" y="450" font-family="Georgia, serif" font-size="12" fill="#D9622B" opacity="0.6" text-anchor="middle">placeholder — replace with real flat-lay photo</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Witch Cloak illustration">
+  <defs><linearGradient id="g-witch" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#241733"/><stop offset="1" stop-color="#0d0a09"/>
+  </linearGradient></defs>
+  <rect width="400" height="500" fill="url(#g-witch)"/>
+  <ellipse cx="200" cy="486" rx="120" ry="22" fill="#000" opacity="0.25"/>
+  <clipPath id="t-witch"><path d="M170 176
+    q30 -14 60 0
+    l4 154
+    q-30 12 -64 0 Z"/></clipPath>
+  
+  <rect x="174" y="326" width="22" height="150" rx="9" fill="#F4D2B4"/>
+       <rect x="204" y="326" width="22" height="150" rx="9" fill="#F4D2B4"/>
+  <rect x="150" y="180" width="20" height="150" rx="10" fill="#14121A"/>
+    <rect x="230" y="180" width="20" height="150" rx="10" fill="#14121A"/>
+    <circle cx="160" cy="326" r="9" fill="#F4D2B4"/>
+    <circle cx="240" cy="326" r="9" fill="#F4D2B4"/>
+  <path d="M170 176
+    q30 -14 60 0
+    l4 154
+    q-30 12 -64 0 Z" fill="#14121A"/>
+  <g clip-path="url(#t-witch)"></g>
+  <rect x="192" y="150" width="16" height="30" fill="#F4D2B4"/>
+  <path d="M156 118 q44 -60 88 0 l8 96 q-16 8 -22 -4 l-6 -70 q-28 14 -60 0 l-6 70 q-6 12 -22 4 Z" fill="#3A2413"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#F4D2B4"/>
+  <path d="M166 106 q34 -30 68 0 q-8 -14 -34 -14 q-26 0 -34 14 Z" fill="#3A2413"/>
+  <path d="M200 8 L246 100 L154 100 Z" fill="#14121A"/><rect x="146" y="98" width="108" height="12" fill="#14121A"/><rect x="188" y="70" width="24" height="14" fill="#7A46B0"/>
+  
 </svg>

@@ -236,15 +236,35 @@ button {
   border-color: var(--accent-b);
 }
 
-.garment img {
+.garment-img {
+  position: relative;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.garment-img img {
   width: 100%;
   aspect-ratio: 4 / 5;
   object-fit: cover;
   border-radius: 1px;
-  margin-bottom: 8px;
+  display: block;
+}
+
+.garment-tag {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  padding: 2px 7px;
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--paper);
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 999px;
 }
 
 .garment .name {
+  display: block;
   font-size: 13px;
   font-weight: 500;
 }
@@ -293,14 +313,4 @@ button {
   color: var(--paper);
   text-decoration: underline;
   text-underline-offset: 3px;
-}
-
-.footnote {
-  margin-top: 56px;
-  padding-top: 24px;
-  border-top: 1px solid var(--rail-line);
-  font-size: 12px;
-  color: var(--paper-dim);
-  line-height: 1.6;
-  max-width: 60ch;
 }

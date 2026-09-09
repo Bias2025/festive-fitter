@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Cat Ears &amp; Tail illustration">
+  <defs><linearGradient id="g-cat-ears" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1B1B1B"/><stop offset="1" stop-color="#0d0a09"/>
+  </linearGradient></defs>
+  <rect width="400" height="500" fill="url(#g-cat-ears)"/>
+  <ellipse cx="200" cy="486" rx="120" ry="22" fill="#000" opacity="0.25"/>
+  <clipPath id="t-cat-ears"><path d="M170 176
+    q30 -14 60 0
+    l4 154
+    q-30 12 -64 0 Z"/></clipPath>
+  
+  <rect x="174" y="326" width="22" height="150" rx="9" fill="#F4D2B4"/>
+       <rect x="204" y="326" width="22" height="150" rx="9" fill="#F4D2B4"/>
+  <rect x="150" y="180" width="20" height="150" rx="10" fill="#141414"/>
+    <rect x="230" y="180" width="20" height="150" rx="10" fill="#141414"/>
+    <circle cx="160" cy="326" r="9" fill="#F4D2B4"/>
+    <circle cx="240" cy="326" r="9" fill="#F4D2B4"/>
+  <path d="M170 176
+    q30 -14 60 0
+    l4 154
+    q-30 12 -64 0 Z" fill="#141414"/>
+  <g clip-path="url(#t-cat-ears)"></g>
+  <rect x="192" y="150" width="16" height="30" fill="#F4D2B4"/>
+  <ellipse cx="200" cy="116" rx="40" ry="44" fill="#6B3B1E"/><circle cx="200" cy="76" r="12" fill="#6B3B1E"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#F4D2B4"/>
+  <path d="M166 106 q34 -30 68 0 q-8 -14 -34 -14 q-26 0 -34 14 Z" fill="#6B3B1E"/>
+  <path d="M164 92 L156 52 L192 82 Z" fill="#141414"/><path d="M236 92 L244 52 L208 82 Z" fill="#141414"/>
+  
+</svg>

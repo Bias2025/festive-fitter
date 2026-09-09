@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Green Cable-Knit illustration">
+  <defs><linearGradient id="g-green-cable-knit" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#123C29"/><stop offset="1" stop-color="#0d0a09"/>
+  </linearGradient></defs>
+  <rect width="400" height="500" fill="url(#g-green-cable-knit)"/>
+  <ellipse cx="200" cy="486" rx="120" ry="22" fill="#000" opacity="0.25"/>
+  <clipPath id="t-green-cable-knit"><path d="M170 176
+    q30 -14 60 0
+    l4 154
+    q-30 12 -64 0 Z"/></clipPath>
+  
+  <rect x="174" y="326" width="22" height="150" rx="9" fill="#B87A4B"/>
+       <rect x="204" y="326" width="22" height="150" rx="9" fill="#B87A4B"/>
+  <rect x="150" y="180" width="20" height="150" rx="10" fill="#1F5A3A"/>
+    <rect x="230" y="180" width="20" height="150" rx="10" fill="#1F5A3A"/>
+    <circle cx="160" cy="326" r="9" fill="#B87A4B"/>
+    <circle cx="240" cy="326" r="9" fill="#B87A4B"/>
+  <path d="M170 176
+    q30 -14 60 0
+    l4 154
+    q-30 12 -64 0 Z" fill="#1F5A3A"/>
+  <g clip-path="url(#t-green-cable-knit)"><g stroke="#0E3324" stroke-width="5" fill="none" opacity="0.6"><path d="M182 176 q10 38.5 0 77 q-10 38.5 0 77"/><path d="M200 176 q10 38.5 0 77 q-10 38.5 0 77"/><path d="M218 176 q10 38.5 0 77 q-10 38.5 0 77"/></g></g>
+  <rect x="192" y="150" width="16" height="30" fill="#B87A4B"/>
+  <circle cx="200" cy="108" r="46" fill="#3A2413"/><circle cx="200" cy="130" r="42" fill="#3A2413"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#B87A4B"/>
+  
+  
+  
+</svg>
