@@ -11,6 +11,7 @@ const CATEGORY_LABELS: Record<Category, string> = {
   pyjamas: 'Pyjamas',
   sweater: 'Sweaters',
   dress: 'Dresses',
+  suiting: 'Suiting',
   accessory: 'Accessories'
 };
 

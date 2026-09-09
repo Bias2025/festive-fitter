@@ -2,7 +2,7 @@ import catalog from './catalog.json';
 import { PREVIEWS } from './previews.generated';
 
 export type Season = 'halloween' | 'christmas';
-export type Category = 'costume' | 'pyjamas' | 'sweater' | 'dress' | 'accessory';
+export type Category = 'costume' | 'pyjamas' | 'sweater' | 'dress' | 'suiting' | 'accessory';
 
 export interface Outfit {
   id: string;

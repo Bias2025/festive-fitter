@@ -137,11 +137,11 @@
   },
   {
     "id": "green-velvet-dress",
-    "label": "Emerald Velvet Dress",
+    "label": "Emerald Sequin Dress",
     "season": "christmas",
     "category": "dress",
     "thumbnail": "/outfits/green-velvet-dress.svg",
-    "prompt": "a floor-length emerald-green velvet dress with long sleeves, a V-neck, a gathered waist, and a soft flowing skirt with subtle sheen"
+    "prompt": "an emerald-green sequin wrap dress with a deep V-neck, long sleeves, a gathered waist, and all-over light-catching sequins"
   },
   {
     "id": "burgundy-sequin-dress",
@@ -166,6 +166,46 @@
     "category": "dress",
     "thumbnail": "/outfits/tartan-dress.svg",
     "prompt": "a red and green tartan plaid dress with a fitted bodice, a full pleated knee-length skirt, long sleeves, and a white Peter Pan collar"
+  },
+  {
+    "id": "black-velvet-jumpsuit",
+    "label": "Black Velvet Jumpsuit",
+    "season": "christmas",
+    "category": "dress",
+    "thumbnail": "/outfits/black-velvet-jumpsuit.svg",
+    "prompt": "a black velvet jumpsuit with a deep V-neck, long sleeves, gold baroque embroidery on the shoulders and cuffs, a nipped waist, and full-length tailored trousers"
+  },
+  {
+    "id": "emerald-velvet-gown",
+    "label": "Emerald Velvet Gown",
+    "season": "christmas",
+    "category": "dress",
+    "thumbnail": "/outfits/emerald-velvet-gown.svg",
+    "prompt": "a deep emerald-green velvet floor-length gown with a square neckline, long full bishop sleeves, a gathered ruched bodice, and a fitted waist"
+  },
+  {
+    "id": "crimson-baroque-gown",
+    "label": "Crimson Baroque Gown",
+    "season": "christmas",
+    "category": "dress",
+    "thumbnail": "/outfits/crimson-baroque-gown.svg",
+    "prompt": "an off-the-shoulder deep-red velvet gown with a structured sweetheart bodice covered in elaborate gold leaf-and-vine embroidery and beading, with a draped velvet shawl"
+  },
+  {
+    "id": "red-sequin-slip-dress",
+    "label": "Red Sequin Slip Dress",
+    "season": "christmas",
+    "category": "dress",
+    "thumbnail": "/outfits/red-sequin-slip-dress.svg",
+    "prompt": "a deep-red sequin slip dress with thin spaghetti straps, a draped cowl neckline, a bias cut that skims the body, and a floor-length hem"
+  },
+  {
+    "id": "green-velvet-blazer",
+    "label": "Green Velvet Dinner Jacket",
+    "season": "christmas",
+    "category": "suiting",
+    "thumbnail": "/outfits/green-velvet-blazer.svg",
+    "prompt": "a dark forest-green velvet dinner jacket with peak lapels worn over a black turtleneck, a small gold snowflake lapel pin, and a red and green paisley pocket square"
   },
   {
     "id": "pj-red-plaid",

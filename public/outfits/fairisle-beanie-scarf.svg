@@ -4,26 +4,26 @@
   </linearGradient></defs>
   <rect width="400" height="500" fill="url(#g-fairisle-beanie-scarf)"/>
   <ellipse cx="200" cy="486" rx="120" ry="20" fill="#1c1a17" opacity="0.12"/>
-  <clipPath id="t-fairisle-beanie-scarf"><path d="M154 176
-    q46 -14 92 0
+  <clipPath id="t-fairisle-beanie-scarf"><path d="M162 176
+    q38 -14 76 0
     l4 154
-    q-46 12 -96 0 Z"/></clipPath>
+    q-38 12 -80 0 Z"/></clipPath>
   
-  <rect x="158" y="326" width="38" height="150" rx="9" fill="#5E3A22"/>
-       <rect x="204" y="326" width="38" height="150" rx="9" fill="#5E3A22"/>
-  <rect x="134" y="180" width="20" height="150" rx="10" fill="#6E6E6E"/>
-    <rect x="246" y="180" width="20" height="150" rx="10" fill="#6E6E6E"/>
-    <circle cx="144" cy="326" r="9" fill="#5E3A22"/>
-    <circle cx="256" cy="326" r="9" fill="#5E3A22"/>
-  <path d="M154 176
-    q46 -14 92 0
+  <rect x="166" y="326" width="30" height="150" rx="9" fill="#8D5A34"/>
+       <rect x="204" y="326" width="30" height="150" rx="9" fill="#8D5A34"/>
+  <rect x="142" y="180" width="20" height="150" rx="10" fill="#6E6E6E"/>
+    <rect x="238" y="180" width="20" height="150" rx="10" fill="#6E6E6E"/>
+    <circle cx="152" cy="326" r="9" fill="#8D5A34"/>
+    <circle cx="248" cy="326" r="9" fill="#8D5A34"/>
+  <path d="M162 176
+    q38 -14 76 0
     l4 154
-    q-46 12 -96 0 Z" fill="#6E6E6E" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
+    q-38 12 -80 0 Z" fill="#6E6E6E" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
   <g clip-path="url(#t-fairisle-beanie-scarf)"></g>
-  <rect x="192" y="150" width="16" height="30" fill="#5E3A22"/>
-  <ellipse cx="200" cy="118" rx="42" ry="46" fill="#6B3B1E"/>
-  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#5E3A22"/>
-  <path d="M164 108 q36 -34 72 0 q-10 -16 -36 -16 q-26 0 -36 16 Z" fill="#6B3B1E"/>
+  <rect x="192" y="150" width="16" height="30" fill="#8D5A34"/>
+  <ellipse cx="200" cy="116" rx="40" ry="44" fill="#9A9A9A"/><circle cx="200" cy="76" r="12" fill="#9A9A9A"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#8D5A34"/>
+  <path d="M166 106 q34 -30 68 0 q-8 -14 -34 -14 q-26 0 -34 14 Z" fill="#9A9A9A"/>
   <path d="M154 100 q46 -54 92 0 Z" fill="#E8DFC8"/><rect x="150" y="92" width="100" height="16" rx="6" fill="#E8DFC8"/><rect x="150" y="92" width="100" height="16" rx="6" fill="#C1272D" opacity="0.25"/>
   <path d="M168 168 q32 22 64 0 l8 54 q-12 8 -18 -2 l-4 -40 q-22 12 -44 0 l-4 40 q-6 10 -18 2 Z" fill="#E8DFC8"/>
 </svg>

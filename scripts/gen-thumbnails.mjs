@@ -43,7 +43,12 @@ const H = {
   'green-cable-knit':   { bg: '#123C29', garment: '#1F5A3A', accent: '#0E3324', pattern: 'cable' },
   'burgundy-henley':    { bg: '#3A1520', garment: '#6E2439', accent: '#4A1526', pattern: 'waffle' },
   // Christmas · dresses
-  'green-velvet-dress':   { bg: '#0F2E22', garment: '#12513A', accent: '#0C3D2C', pattern: 'plain', long: true },
+  'green-velvet-dress':   { bg: '#0F2E22', garment: '#137A4E', accent: '#0C3D2C', pattern: 'sequin', long: true },
+  'black-velvet-jumpsuit':{ bg: '#1A1A1A', garment: '#141414', accent: '#C9A227', pattern: 'plain', legwear: '#141414' },
+  'emerald-velvet-gown':  { bg: '#0F2E22', garment: '#0E4B34', accent: '#0A3626', pattern: 'plain', long: true },
+  'crimson-baroque-gown': { bg: '#2E0F16', garment: '#7A1420', accent: '#C9A227', pattern: 'lace', long: true },
+  'red-sequin-slip-dress':{ bg: '#2E0F16', garment: '#8A1420', accent: '#C05060', pattern: 'sequin', long: true },
+  'green-velvet-blazer':  { bg: '#12261C', garment: '#123C29', accent: '#0C0C0C', pattern: 'lapel', legwear: '#141414' },
   'burgundy-sequin-dress':{ bg: '#2E0F1C', garment: '#6E2439', accent: '#A83B5A', pattern: 'sequin', long: true },
   'cream-lace-midi':      { bg: '#6B5B47', garment: '#ECE3D2', accent: '#D6C7AC', pattern: 'lace', long: true },
   'tartan-dress':         { bg: '#5A1E1E', garment: '#A52A2A', accent: '#1B4332', pattern: 'plaid', long: true },
@@ -67,8 +72,11 @@ const LABELS = {
   santa: 'Santa Suit', 'mrs-claus': 'Mrs. Claus Dress', elf: 'Elf Outfit', nutcracker: 'Nutcracker Uniform',
   gingerbread: 'Gingerbread Costume', sweater: 'Fair Isle Sweater', 'cream-sweater-dress': 'Cream Sweater Dress',
   'camel-knit': 'Camel Chunky Knit', 'green-cable-knit': 'Green Cable-Knit', 'burgundy-henley': 'Burgundy Waffle Henley',
-  'green-velvet-dress': 'Emerald Velvet Dress', 'burgundy-sequin-dress': 'Burgundy Sequin Dress',
+  'green-velvet-dress': 'Emerald Sequin Dress', 'burgundy-sequin-dress': 'Burgundy Sequin Dress',
   'cream-lace-midi': 'Cream Lace Midi', 'tartan-dress': 'Red Tartan Dress',
+  'black-velvet-jumpsuit': 'Black Velvet Jumpsuit', 'emerald-velvet-gown': 'Emerald Velvet Gown',
+  'crimson-baroque-gown': 'Crimson Baroque Gown', 'red-sequin-slip-dress': 'Red Sequin Slip Dress',
+  'green-velvet-blazer': 'Green Velvet Dinner Jacket',
   'pj-red-plaid': 'Red Plaid Pyjamas', 'pj-fairisle': 'Fair Isle Pyjama Set', 'pj-reindeer-onesie': 'Reindeer Onesie',
   'pj-santa-lounge': 'Santa Lounge Set', 'pj-tartan-nightdress': 'Tartan Nightdress',
   'pj-family-plaid': 'Family Buffalo-Plaid Set', 'pj-white-waffle': 'White Waffle Set',
@@ -191,6 +199,8 @@ function pattern(kind, x, y, w, h, accent) {
       return `<path d="M${x} ${y + 6} q${w / 4} 14 ${w / 2} 0 q${w / 4} -14 ${w / 2} 0" stroke="${accent}" stroke-width="3" fill="none"/><g fill="${accent}"><circle cx="${cx}" cy="${y + 30}" r="5"/><circle cx="${cx}" cy="${y + 52}" r="5"/><circle cx="${cx}" cy="${y + 74}" r="5"/></g>`;
     case 'cape':
       return `<path d="M${x - 8} ${y} L${x - 22} ${y + h + 20} L${cx} ${y + h} L${x + w + 22} ${y + h + 20} L${x + w + 8} ${y} Z" fill="${accent}" opacity="0.35"/>`;
+    case 'lapel':
+      return `<path d="M${cx} ${y} L${x + 10} ${y + 8} L${cx - 6} ${y + h} Z" fill="${accent}" opacity="0.7"/><path d="M${cx} ${y} L${x + w - 10} ${y + 8} L${cx + 6} ${y + h} Z" fill="${accent}" opacity="0.7"/><rect x="${cx - 14}" y="${y}" width="28" height="${h}" fill="#1a1a1a"/><rect x="${x + w - 22}" y="${y + 30}" width="14" height="10" fill="#B34" opacity="0.8"/>`;
     default:
       return '';
   }

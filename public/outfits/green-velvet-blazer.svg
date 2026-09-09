@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Green Velvet Dinner Jacket illustration">
+  <defs><linearGradient id="g-green-velvet-blazer" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eee9e0"/>
+  </linearGradient></defs>
+  <rect width="400" height="500" fill="url(#g-green-velvet-blazer)"/>
+  <ellipse cx="200" cy="486" rx="120" ry="20" fill="#1c1a17" opacity="0.12"/>
+  <clipPath id="t-green-velvet-blazer"><path d="M162 176
+    q38 -14 76 0
+    l4 154
+    q-38 12 -80 0 Z"/></clipPath>
+  
+  <rect x="166" y="326" width="30" height="150" rx="9" fill="#141414"/>
+       <rect x="204" y="326" width="30" height="150" rx="9" fill="#141414"/>
+  <rect x="142" y="180" width="20" height="150" rx="10" fill="#123C29"/>
+    <rect x="238" y="180" width="20" height="150" rx="10" fill="#123C29"/>
+    <circle cx="152" cy="326" r="9" fill="#8D5A34"/>
+    <circle cx="248" cy="326" r="9" fill="#8D5A34"/>
+  <path d="M162 176
+    q38 -14 76 0
+    l4 154
+    q-38 12 -80 0 Z" fill="#123C29" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
+  <g clip-path="url(#t-green-velvet-blazer)"><path d="M202 176 L172 184 L196 330 Z" fill="#0C0C0C" opacity="0.7"/><path d="M202 176 L232 184 L208 330 Z" fill="#0C0C0C" opacity="0.7"/><rect x="188" y="176" width="28" height="154" fill="#1a1a1a"/><rect x="220" y="206" width="14" height="10" fill="#B34" opacity="0.8"/></g>
+  <rect x="192" y="150" width="16" height="30" fill="#8D5A34"/>
+  <ellipse cx="200" cy="116" rx="40" ry="44" fill="#9A9A9A"/><circle cx="200" cy="76" r="12" fill="#9A9A9A"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#8D5A34"/>
+  <path d="M166 106 q34 -30 68 0 q-8 -14 -34 -14 q-26 0 -34 14 Z" fill="#9A9A9A"/>
+  
+  
+</svg>

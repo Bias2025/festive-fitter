@@ -4,26 +4,26 @@
   </linearGradient></defs>
   <rect width="400" height="500" fill="url(#g-santa-hat)"/>
   <ellipse cx="200" cy="486" rx="120" ry="20" fill="#1c1a17" opacity="0.12"/>
-  <clipPath id="t-santa-hat"><path d="M162 176
-    q38 -14 76 0
+  <clipPath id="t-santa-hat"><path d="M170 176
+    q30 -14 60 0
     l4 154
-    q-38 12 -80 0 Z"/></clipPath>
+    q-30 12 -64 0 Z"/></clipPath>
   
-  <rect x="166" y="326" width="30" height="150" rx="9" fill="#8D5A34"/>
-       <rect x="204" y="326" width="30" height="150" rx="9" fill="#8D5A34"/>
-  <rect x="142" y="180" width="20" height="150" rx="10" fill="#6E6E6E"/>
-    <rect x="238" y="180" width="20" height="150" rx="10" fill="#6E6E6E"/>
-    <circle cx="152" cy="326" r="9" fill="#8D5A34"/>
-    <circle cx="248" cy="326" r="9" fill="#8D5A34"/>
-  <path d="M162 176
-    q38 -14 76 0
+  <rect x="174" y="326" width="22" height="150" rx="9" fill="#B87A4B"/>
+       <rect x="204" y="326" width="22" height="150" rx="9" fill="#B87A4B"/>
+  <rect x="150" y="180" width="20" height="150" rx="10" fill="#6E6E6E"/>
+    <rect x="230" y="180" width="20" height="150" rx="10" fill="#6E6E6E"/>
+    <circle cx="160" cy="326" r="9" fill="#B87A4B"/>
+    <circle cx="240" cy="326" r="9" fill="#B87A4B"/>
+  <path d="M170 176
+    q30 -14 60 0
     l4 154
-    q-38 12 -80 0 Z" fill="#6E6E6E" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
+    q-30 12 -64 0 Z" fill="#6E6E6E" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
   <g clip-path="url(#t-santa-hat)"></g>
-  <rect x="192" y="150" width="16" height="30" fill="#8D5A34"/>
-  <path d="M156 118 q44 -60 88 0 l8 96 q-16 8 -22 -4 l-6 -70 q-28 14 -60 0 l-6 70 q-6 12 -22 4 Z" fill="#0C0C0C"/>
-  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#8D5A34"/>
-  <path d="M166 106 q34 -30 68 0 q-8 -14 -34 -14 q-26 0 -34 14 Z" fill="#0C0C0C"/>
+  <rect x="192" y="150" width="16" height="30" fill="#B87A4B"/>
+  <ellipse cx="200" cy="118" rx="42" ry="46" fill="#4A2C12"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#B87A4B"/>
+  <path d="M164 108 q36 -34 72 0 q-10 -16 -36 -16 q-26 0 -36 16 Z" fill="#4A2C12"/>
   <path d="M158 100 q42 -78 92 -34 l-14 40 Z" fill="#C1272D"/><rect x="150" y="94" width="104" height="16" rx="8" fill="#F4EFE4"/><circle cx="246" cy="60" r="11" fill="#F4EFE4"/>
   
 </svg>
