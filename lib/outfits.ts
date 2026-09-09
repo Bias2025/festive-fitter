@@ -22,7 +22,7 @@ export interface Outfit {
 }
 
 export const OUTFITS: Outfit[] = (catalog as Omit<Outfit, 'preview'>[]).map((o) => {
-  const preview = PREVIEWS.has(o.id) ? `/outfits/previews/${o.id}.png` : undefined;
+  const preview = PREVIEWS.get(o.id);
   return preview ? { ...o, preview } : o;
 });
 

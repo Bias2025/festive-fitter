@@ -8,4 +8,8 @@ node_modules
 scripts/models.json
 scripts/models/
 
+# Local scratch drop for source images before they're cropped into previews
+/festive-fitting-room/
+/scratch-models.png
+
 next-env.d.ts
