@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="White Waffle Set illustration">
   <defs><linearGradient id="g-pj-white-waffle" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#6B6459"/><stop offset="1" stop-color="#0d0a09"/>
+    <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eee9e0"/>
   </linearGradient></defs>
   <rect width="400" height="500" fill="url(#g-pj-white-waffle)"/>
-  <ellipse cx="200" cy="486" rx="120" ry="22" fill="#000" opacity="0.25"/>
+  <ellipse cx="200" cy="486" rx="120" ry="20" fill="#1c1a17" opacity="0.12"/>
   <clipPath id="t-pj-white-waffle"><path d="M170 176
     q30 -14 60 0
     l4 154
@@ -18,7 +18,7 @@
   <path d="M170 176
     q30 -14 60 0
     l4 154
-    q-30 12 -64 0 Z" fill="#ECE9E1"/>
+    q-30 12 -64 0 Z" fill="#ECE9E1" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
   <g clip-path="url(#t-pj-white-waffle)"><g stroke="#D4CDBE" stroke-width="2" opacity="0.5"><line x1="176" y1="176" x2="176" y2="330"/><line x1="188" y1="176" x2="188" y2="330"/><line x1="200" y1="176" x2="200" y2="330"/><line x1="212" y1="176" x2="212" y2="330"/><line x1="224" y1="176" x2="224" y2="330"/><line x1="170" y1="182" x2="234" y2="182"/><line x1="170" y1="194" x2="234" y2="194"/><line x1="170" y1="206" x2="234" y2="206"/><line x1="170" y1="218" x2="234" y2="218"/><line x1="170" y1="230" x2="234" y2="230"/><line x1="170" y1="242" x2="234" y2="242"/><line x1="170" y1="254" x2="234" y2="254"/><line x1="170" y1="266" x2="234" y2="266"/><line x1="170" y1="278" x2="234" y2="278"/><line x1="170" y1="290" x2="234" y2="290"/><line x1="170" y1="302" x2="234" y2="302"/><line x1="170" y1="314" x2="234" y2="314"/><line x1="170" y1="326" x2="234" y2="326"/></g></g>
   <rect x="192" y="150" width="16" height="30" fill="#B87A4B"/>
   <circle cx="200" cy="108" r="46" fill="#3A2413"/><circle cx="200" cy="130" r="42" fill="#3A2413"/>

@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Burgundy Sequin Dress illustration">
   <defs><linearGradient id="g-burgundy-sequin-dress" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#2E0F1C"/><stop offset="1" stop-color="#0d0a09"/>
+    <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eee9e0"/>
   </linearGradient></defs>
   <rect width="400" height="500" fill="url(#g-burgundy-sequin-dress)"/>
-  <ellipse cx="200" cy="486" rx="120" ry="22" fill="#000" opacity="0.25"/>
+  <ellipse cx="200" cy="486" rx="120" ry="20" fill="#1c1a17" opacity="0.12"/>
   <clipPath id="t-burgundy-sequin-dress"><path d="M170 176
     q30 -14 60 0
     l4 254
@@ -17,7 +17,7 @@
   <path d="M170 176
     q30 -14 60 0
     l4 254
-    q-30 12 -64 0 Z" fill="#6E2439"/>
+    q-30 12 -64 0 Z" fill="#6E2439" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
   <g clip-path="url(#t-burgundy-sequin-dress)"><g fill="#A83B5A" opacity="0.7"><circle cx="180" cy="190" r="3"/><circle cx="187.33333333333334" cy="190" r="3"/><circle cx="194.66666666666666" cy="190" r="3"/><circle cx="202" cy="190" r="3"/><circle cx="209.33333333333334" cy="190" r="3"/><circle cx="216.66666666666666" cy="190" r="3"/><circle cx="224" cy="190" r="3"/><circle cx="180" cy="236" r="3"/><circle cx="187.33333333333334" cy="236" r="3"/><circle cx="194.66666666666666" cy="236" r="3"/><circle cx="202" cy="236" r="3"/><circle cx="209.33333333333334" cy="236" r="3"/><circle cx="216.66666666666666" cy="236" r="3"/><circle cx="224" cy="236" r="3"/><circle cx="180" cy="282" r="3"/><circle cx="187.33333333333334" cy="282" r="3"/><circle cx="194.66666666666666" cy="282" r="3"/><circle cx="202" cy="282" r="3"/><circle cx="209.33333333333334" cy="282" r="3"/><circle cx="216.66666666666666" cy="282" r="3"/><circle cx="224" cy="282" r="3"/><circle cx="180" cy="328" r="3"/><circle cx="187.33333333333334" cy="328" r="3"/><circle cx="194.66666666666666" cy="328" r="3"/><circle cx="202" cy="328" r="3"/><circle cx="209.33333333333334" cy="328" r="3"/><circle cx="216.66666666666666" cy="328" r="3"/><circle cx="224" cy="328" r="3"/><circle cx="180" cy="374" r="3"/><circle cx="187.33333333333334" cy="374" r="3"/><circle cx="194.66666666666666" cy="374" r="3"/><circle cx="202" cy="374" r="3"/><circle cx="209.33333333333334" cy="374" r="3"/><circle cx="216.66666666666666" cy="374" r="3"/><circle cx="224" cy="374" r="3"/><circle cx="180" cy="420" r="3"/><circle cx="187.33333333333334" cy="420" r="3"/><circle cx="194.66666666666666" cy="420" r="3"/><circle cx="202" cy="420" r="3"/><circle cx="209.33333333333334" cy="420" r="3"/><circle cx="216.66666666666666" cy="420" r="3"/><circle cx="224" cy="420" r="3"/></g></g>
   <rect x="192" y="150" width="16" height="30" fill="#F4D2B4"/>
   <ellipse cx="200" cy="116" rx="40" ry="44" fill="#6B3B1E"/><circle cx="200" cy="76" r="12" fill="#6B3B1E"/>

@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Devil Costume illustration">
   <defs><linearGradient id="g-devil" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#340B10"/><stop offset="1" stop-color="#0d0a09"/>
+    <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eee9e0"/>
   </linearGradient></defs>
   <rect width="400" height="500" fill="url(#g-devil)"/>
-  <ellipse cx="200" cy="486" rx="120" ry="22" fill="#000" opacity="0.25"/>
+  <ellipse cx="200" cy="486" rx="120" ry="20" fill="#1c1a17" opacity="0.12"/>
   <clipPath id="t-devil"><path d="M154 176
     q46 -14 92 0
     l4 154
@@ -18,7 +18,7 @@
   <path d="M154 176
     q46 -14 92 0
     l4 154
-    q-46 12 -96 0 Z" fill="#B01E2E"/>
+    q-46 12 -96 0 Z" fill="#B01E2E" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
   <g clip-path="url(#t-devil)"><path d="M146 176 L132 350 L202 330 L272 350 L258 176 Z" fill="#6E0F16" opacity="0.35"/></g>
   <rect x="192" y="150" width="16" height="30" fill="#5E3A22"/>
   <ellipse cx="200" cy="118" rx="42" ry="46" fill="#6B3B1E"/>

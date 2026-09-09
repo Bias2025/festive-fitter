@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Santa Lounge Set illustration">
   <defs><linearGradient id="g-pj-santa-lounge" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#7A1418"/><stop offset="1" stop-color="#0d0a09"/>
+    <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eee9e0"/>
   </linearGradient></defs>
   <rect width="400" height="500" fill="url(#g-pj-santa-lounge)"/>
-  <ellipse cx="200" cy="486" rx="120" ry="22" fill="#000" opacity="0.25"/>
+  <ellipse cx="200" cy="486" rx="120" ry="20" fill="#1c1a17" opacity="0.12"/>
   <clipPath id="t-pj-santa-lounge"><path d="M170 176
     q30 -14 60 0
     l4 154
@@ -18,7 +18,7 @@
   <path d="M170 176
     q30 -14 60 0
     l4 154
-    q-30 12 -64 0 Z" fill="#C1272D"/>
+    q-30 12 -64 0 Z" fill="#C1272D" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
   <g clip-path="url(#t-pj-santa-lounge)"><rect x="170" y="314" width="64" height="16" fill="#F4EFE4"/><rect x="195" y="176" width="14" height="154" fill="#F4EFE4" opacity="0.9"/></g>
   <rect x="192" y="150" width="16" height="30" fill="#F4D2B4"/>
   <path d="M156 118 q44 -60 88 0 l8 96 q-16 8 -22 -4 l-6 -70 q-28 14 -60 0 l-6 70 q-6 12 -22 4 Z" fill="#3A2413"/>

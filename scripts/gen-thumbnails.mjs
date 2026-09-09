@@ -236,15 +236,15 @@ function svg(id, i) {
   const grad = `g-${id}`;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="${esc(LABELS[id] || id)} illustration">
   <defs><linearGradient id="${grad}" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="${h.bg}"/><stop offset="1" stop-color="#0d0a09"/>
+    <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eee9e0"/>
   </linearGradient></defs>
   <rect width="400" height="500" fill="url(#${grad})"/>
-  <ellipse cx="200" cy="486" rx="120" ry="22" fill="#000" opacity="0.25"/>
+  <ellipse cx="200" cy="486" rx="120" ry="20" fill="#1c1a17" opacity="0.12"/>
   <clipPath id="t-${id}"><path d="${torso}"/></clipPath>
   ${pattern(h.pattern === 'cape' ? 'cape' : 'none', tx, torsoY, halfW * 2, torsoH, h.accent)}
   ${legs}
   ${arms}
-  <path d="${torso}" fill="${h.garment}"/>
+  <path d="${torso}" fill="${h.garment}" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
   <g clip-path="url(#t-${id})">${pattern(h.pattern, tx, torsoY, halfW * 2 + 4, torsoH, h.accent)}</g>
   <rect x="192" y="150" width="16" height="30" fill="${skin}"/>
   ${hairBack(hairStyle, skinIdx)}

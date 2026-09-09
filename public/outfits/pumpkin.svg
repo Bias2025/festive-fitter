@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Pumpkin Costume illustration">
   <defs><linearGradient id="g-pumpkin" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#43260C"/><stop offset="1" stop-color="#0d0a09"/>
+    <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eee9e0"/>
   </linearGradient></defs>
   <rect width="400" height="500" fill="url(#g-pumpkin)"/>
-  <ellipse cx="200" cy="486" rx="120" ry="22" fill="#000" opacity="0.25"/>
+  <ellipse cx="200" cy="486" rx="120" ry="20" fill="#1c1a17" opacity="0.12"/>
   <clipPath id="t-pumpkin"><path d="M170 176
     q30 -14 60 0
     l4 154
@@ -18,7 +18,7 @@
   <path d="M170 176
     q30 -14 60 0
     l4 154
-    q-30 12 -64 0 Z" fill="#D9622B"/>
+    q-30 12 -64 0 Z" fill="#D9622B" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
   <g clip-path="url(#t-pumpkin)"></g>
   <rect x="192" y="150" width="16" height="30" fill="#B87A4B"/>
   <circle cx="200" cy="108" r="46" fill="#3A2413"/><circle cx="200" cy="130" r="42" fill="#3A2413"/>

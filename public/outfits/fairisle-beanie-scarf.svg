@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Fair Isle Beanie &amp; Scarf illustration">
   <defs><linearGradient id="g-fairisle-beanie-scarf" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#5A1E1E"/><stop offset="1" stop-color="#0d0a09"/>
+    <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eee9e0"/>
   </linearGradient></defs>
   <rect width="400" height="500" fill="url(#g-fairisle-beanie-scarf)"/>
-  <ellipse cx="200" cy="486" rx="120" ry="22" fill="#000" opacity="0.25"/>
+  <ellipse cx="200" cy="486" rx="120" ry="20" fill="#1c1a17" opacity="0.12"/>
   <clipPath id="t-fairisle-beanie-scarf"><path d="M154 176
     q46 -14 92 0
     l4 154
@@ -18,7 +18,7 @@
   <path d="M154 176
     q46 -14 92 0
     l4 154
-    q-46 12 -96 0 Z" fill="#6E6E6E"/>
+    q-46 12 -96 0 Z" fill="#6E6E6E" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
   <g clip-path="url(#t-fairisle-beanie-scarf)"></g>
   <rect x="192" y="150" width="16" height="30" fill="#5E3A22"/>
   <ellipse cx="200" cy="118" rx="42" ry="46" fill="#6B3B1E"/>

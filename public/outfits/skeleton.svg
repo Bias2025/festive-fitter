@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500" role="img" aria-label="Skeleton Suit illustration">
   <defs><linearGradient id="g-skeleton" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#14161A"/><stop offset="1" stop-color="#0d0a09"/>
+    <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eee9e0"/>
   </linearGradient></defs>
   <rect width="400" height="500" fill="url(#g-skeleton)"/>
-  <ellipse cx="200" cy="486" rx="120" ry="22" fill="#000" opacity="0.25"/>
+  <ellipse cx="200" cy="486" rx="120" ry="20" fill="#1c1a17" opacity="0.12"/>
   <clipPath id="t-skeleton"><path d="M154 176
     q46 -14 92 0
     l4 154
@@ -18,7 +18,7 @@
   <path d="M154 176
     q46 -14 92 0
     l4 154
-    q-46 12 -96 0 Z" fill="#17191D"/>
+    q-46 12 -96 0 Z" fill="#17191D" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
   <g clip-path="url(#t-skeleton)"><g stroke="#ECECEC" stroke-width="6" stroke-linecap="round" opacity="0.9"><line x1="202" y1="184" x2="202" y2="322"/><line x1="166" y1="200" x2="238" y2="200"/><line x1="170" y1="220" x2="234" y2="220"/><line x1="174" y1="240" x2="230" y2="240"/></g></g>
   <rect x="192" y="150" width="16" height="30" fill="#D69A6A"/>
   <ellipse cx="200" cy="116" rx="40" ry="44" fill="#1E140C"/><circle cx="200" cy="76" r="12" fill="#1E140C"/>

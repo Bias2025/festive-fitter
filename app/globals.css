@@ -1,17 +1,18 @@
 :root {
-  --backdrop: #14100f;
-  --surface: #201a18;
-  --surface-raised: #2a2220;
-  --paper: #f7f3ec;
-  --paper-dim: #cfc6b8;
-  --rail-line: #3a2f2b;
+  --backdrop: #ffffff;
+  --surface: #f6f3ee;
+  --surface-raised: #efe9df;
+  --paper: #1c1a17; /* primary text */
+  --paper-dim: #6b6459; /* muted text */
+  --rail-line: #e3ddd1;
+  --on-accent: #ffffff; /* text/icons on an accent fill */
 
   --accent-a: #1b4332; /* holly green (christmas default) */
   --accent-b: #c1272d; /* berry red */
 }
 
 [data-season='halloween'] {
-  --accent-a: #d9622b; /* pumpkin */
+  --accent-a: #b64f1f; /* pumpkin */
   --accent-b: #5b2a86; /* violet */
 }
 
@@ -104,7 +105,7 @@ button {
 
 .season-toggle button[aria-pressed='true'] {
   background: var(--accent-a);
-  color: var(--paper);
+  color: var(--on-accent);
 }
 
 /* ---- Category filter ---- */
@@ -148,7 +149,7 @@ button {
 
 /* ---- Booth (photo upload / result) ---- */
 .booth {
-  border: 2px dashed var(--rail-line);
+  border: 2px dashed #c9c1b0;
   border-radius: 4px;
   background: var(--surface);
   aspect-ratio: 3 / 4;
@@ -258,8 +259,8 @@ button {
   font-size: 10px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: var(--paper);
-  background: rgba(0, 0, 0, 0.55);
+  color: var(--on-accent);
+  background: rgba(28, 26, 23, 0.72);
   border-radius: 999px;
 }
 
@@ -280,7 +281,7 @@ button {
 
 .try-btn {
   background: var(--accent-b);
-  color: var(--paper);
+  color: var(--on-accent);
   border: none;
   padding: 14px 28px;
   border-radius: 999px;
@@ -305,7 +306,7 @@ button {
 }
 
 .status-text.error {
-  color: #e8817f;
+  color: #b3261e;
 }
 
 .download-link {

@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "thumbnails": "node scripts/gen-thumbnails.mjs",
+    "models": "node scripts/generate-models.mjs",
     "previews": "node scripts/generate-previews.mjs"
   },
   "dependencies": {
