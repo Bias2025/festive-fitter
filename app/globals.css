@@ -107,6 +107,31 @@ button {
   color: var(--paper);
 }
 
+/* ---- Category filter ---- */
+.category-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.category-filter button {
+  border: 1px solid var(--rail-line);
+  background: transparent;
+  color: var(--paper-dim);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+
+.category-filter button[aria-pressed='true'] {
+  border-color: var(--accent-b);
+  color: var(--paper);
+  background: color-mix(in srgb, var(--accent-b) 18%, transparent);
+}
+
 /* ---- Main layout: booth + rail ---- */
 .studio {
   display: grid;

@@ -1,9 +1,12 @@
-# The Fitting Room
+# StyleMySeason
 
-A minimal virtual try-on web app for Halloween and Christmas outfits. Upload a
-photo, pick an outfit off the rack, and get back an image of yourself wearing
-it. Built with Next.js (App Router) and Replicate's FLUX Kontext model — no
-model training, no custom infrastructure.
+A minimal virtual try-on web app for festive apparel — Halloween and Christmas
+costumes, holiday sweaters, and Christmas pyjamas. Upload a photo, pick a piece
+off the rack, and get back an image of yourself wearing it. Built with Next.js
+(App Router) and Replicate's FLUX Kontext model — no model training, no custom
+infrastructure.
+
+Sibling brand to StyleMyCrown.
 
 ## How it works
 
@@ -63,7 +66,10 @@ box. For real results:
    prompt-driven, not the reference image, so the prompt quality is what
    drives result quality here.
 3. Add more entries to the `OUTFITS` array for a bigger rack — no code
-   changes needed elsewhere, the UI reads from that array.
+   changes needed elsewhere, the UI reads from that array. Each entry needs a
+   `season` (`halloween` | `christmas`) and a `category` (`costume` |
+   `pyjamas` | `sweater` | `accessory`). The rack shows a category filter
+   automatically whenever a season has more than one category in it.
 
 ## Cost and speed notes
 

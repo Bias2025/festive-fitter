@@ -1,12 +1,21 @@
 'use client';
 
 import { useMemo, useRef, useState } from 'react';
-import { OUTFITS, Season, outfitsBySeason } from '@/lib/outfits';
+import { Category, OUTFITS, Season, categoriesInSeason, outfitsBySeason } from '@/lib/outfits';
 
 type Status = 'idle' | 'loading' | 'error' | 'done';
+type CategoryFilter = Category | 'all';
+
+const CATEGORY_LABELS: Record<Category, string> = {
+  costume: 'Costumes',
+  pyjamas: 'Pyjamas',
+  sweater: 'Sweaters',
+  accessory: 'Accessories'
+};
 
 export default function Home() {
   const [season, setSeason] = useState<Season>('halloween');
+  const [category, setCategory] = useState<CategoryFilter>('all');
   const [photoFile, setPhotoFile] = useState<File | null>(null);
   const [photoPreview, setPhotoPreview] = useState<string | null>(null);
   const [selectedOutfitId, setSelectedOutfitId] = useState<string | null>(null);
@@ -15,7 +24,13 @@ export default function Home() {
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
   const fileInputRef = useRef<HTMLInputElement>(null);
-  const outfits = useMemo(() => outfitsBySeason(season), [season]);
+
+  const seasonOutfits = useMemo(() => outfitsBySeason(season), [season]);
+  const categories = useMemo(() => categoriesInSeason(season), [season]);
+  const outfits = useMemo(
+    () => (category === 'all' ? seasonOutfits : seasonOutfits.filter((o) => o.category === category)),
+    [seasonOutfits, category]
+  );
   const selectedOutfit = OUTFITS.find((o) => o.id === selectedOutfitId) || null;
 
   function handlePhotoChange(e: React.ChangeEvent<HTMLInputElement>) {
@@ -31,6 +46,12 @@ export default function Home() {
 
   function handleSeasonChange(next: Season) {
     setSeason(next);
+    setCategory('all');
+    setSelectedOutfitId(null);
+  }
+
+  function handleCategoryChange(next: CategoryFilter) {
+    setCategory(next);
     setSelectedOutfitId(null);
   }
 
@@ -70,7 +91,7 @@ export default function Home() {
           sew it, or talk yourself out of it.
         </span>
         <h1>
-          The Fitting <span className="accent">Room</span>
+          StyleMy<span className="accent">Season</span>
         </h1>
 
         <div className="season-toggle" role="group" aria-label="Season">
@@ -103,9 +124,22 @@ export default function Home() {
 
         <div>
           <div className="rail-heading">
-            <h2>{season === 'halloween' ? "This year's rack" : "This year's rack"}</h2>
-            <span className="rail-count">{outfits.length} outfits</span>
+            <h2>This year&rsquo;s rack</h2>
+            <span className="rail-count">{outfits.length} pieces</span>
           </div>
+
+          {categories.length > 1 && (
+            <div className="category-filter" role="group" aria-label="Category">
+              <button aria-pressed={category === 'all'} onClick={() => handleCategoryChange('all')}>
+                All
+              </button>
+              {categories.map((c) => (
+                <button key={c} aria-pressed={category === c} onClick={() => handleCategoryChange(c)}>
+                  {CATEGORY_LABELS[c]}
+                </button>
+              ))}
+            </div>
+          )}
 
           <div className="rail">
             {outfits.map((outfit) => (

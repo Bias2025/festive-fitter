@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'The Fitting Room — Holiday Try-On',
-  description: 'Try on Halloween and Christmas outfits in a photo before you commit.'
+  title: 'StyleMySeason — Festive Try-On',
+  description: 'Try on Halloween and Christmas outfits, sweaters, and pyjamas in a photo before you commit.'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
