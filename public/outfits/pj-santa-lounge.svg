@@ -4,26 +4,26 @@
   </linearGradient></defs>
   <rect width="400" height="500" fill="url(#g-pj-santa-lounge)"/>
   <ellipse cx="200" cy="486" rx="120" ry="20" fill="#1c1a17" opacity="0.12"/>
-  <clipPath id="t-pj-santa-lounge"><path d="M154 176
-    q46 -14 92 0
+  <clipPath id="t-pj-santa-lounge"><path d="M170 176
+    q30 -14 60 0
     l4 154
-    q-46 12 -96 0 Z"/></clipPath>
+    q-30 12 -64 0 Z"/></clipPath>
   
-  <rect x="158" y="326" width="38" height="150" rx="9" fill="#C1272D"/>
-       <rect x="204" y="326" width="38" height="150" rx="9" fill="#C1272D"/>
-  <rect x="134" y="180" width="20" height="150" rx="10" fill="#C1272D"/>
-    <rect x="246" y="180" width="20" height="150" rx="10" fill="#C1272D"/>
-    <circle cx="144" cy="326" r="9" fill="#D69A6A"/>
-    <circle cx="256" cy="326" r="9" fill="#D69A6A"/>
-  <path d="M154 176
-    q46 -14 92 0
+  <rect x="174" y="326" width="22" height="150" rx="9" fill="#C1272D"/>
+       <rect x="204" y="326" width="22" height="150" rx="9" fill="#C1272D"/>
+  <rect x="150" y="180" width="20" height="150" rx="10" fill="#C1272D"/>
+    <rect x="230" y="180" width="20" height="150" rx="10" fill="#C1272D"/>
+    <circle cx="160" cy="326" r="9" fill="#B87A4B"/>
+    <circle cx="240" cy="326" r="9" fill="#B87A4B"/>
+  <path d="M170 176
+    q30 -14 60 0
     l4 154
-    q-46 12 -96 0 Z" fill="#C1272D" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
-  <g clip-path="url(#t-pj-santa-lounge)"><rect x="154" y="314" width="96" height="16" fill="#F4EFE4"/><rect x="195" y="176" width="14" height="154" fill="#F4EFE4" opacity="0.9"/></g>
-  <rect x="192" y="150" width="16" height="30" fill="#D69A6A"/>
-  <ellipse cx="200" cy="116" rx="40" ry="44" fill="#1E140C"/><circle cx="200" cy="76" r="12" fill="#1E140C"/>
-  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#D69A6A"/>
-  <path d="M166 106 q34 -30 68 0 q-8 -14 -34 -14 q-26 0 -34 14 Z" fill="#1E140C"/>
+    q-30 12 -64 0 Z" fill="#C1272D" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
+  <g clip-path="url(#t-pj-santa-lounge)"><rect x="170" y="314" width="64" height="16" fill="#F4EFE4"/><rect x="195" y="176" width="14" height="154" fill="#F4EFE4" opacity="0.9"/></g>
+  <rect x="192" y="150" width="16" height="30" fill="#B87A4B"/>
+  <ellipse cx="200" cy="118" rx="42" ry="46" fill="#4A2C12"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#B87A4B"/>
+  <path d="M164 108 q36 -34 72 0 q-10 -16 -36 -16 q-26 0 -36 16 Z" fill="#4A2C12"/>
   
   
 </svg>

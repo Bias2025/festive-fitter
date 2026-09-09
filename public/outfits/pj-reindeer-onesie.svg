@@ -4,26 +4,26 @@
   </linearGradient></defs>
   <rect width="400" height="500" fill="url(#g-pj-reindeer-onesie)"/>
   <ellipse cx="200" cy="486" rx="120" ry="20" fill="#1c1a17" opacity="0.12"/>
-  <clipPath id="t-pj-reindeer-onesie"><path d="M162 176
-    q38 -14 76 0
+  <clipPath id="t-pj-reindeer-onesie"><path d="M154 176
+    q46 -14 92 0
     l4 154
-    q-38 12 -80 0 Z"/></clipPath>
+    q-46 12 -96 0 Z"/></clipPath>
   
-  <rect x="166" y="326" width="30" height="150" rx="9" fill="#BB8B5C"/>
-       <rect x="204" y="326" width="30" height="150" rx="9" fill="#BB8B5C"/>
-  <rect x="142" y="180" width="20" height="150" rx="10" fill="#BB8B5C"/>
-    <rect x="238" y="180" width="20" height="150" rx="10" fill="#BB8B5C"/>
-    <circle cx="152" cy="326" r="9" fill="#E7B58C"/>
-    <circle cx="248" cy="326" r="9" fill="#E7B58C"/>
-  <path d="M162 176
-    q38 -14 76 0
+  <rect x="158" y="326" width="38" height="150" rx="9" fill="#BB8B5C"/>
+       <rect x="204" y="326" width="38" height="150" rx="9" fill="#BB8B5C"/>
+  <rect x="134" y="180" width="20" height="150" rx="10" fill="#BB8B5C"/>
+    <rect x="246" y="180" width="20" height="150" rx="10" fill="#BB8B5C"/>
+    <circle cx="144" cy="326" r="9" fill="#D69A6A"/>
+    <circle cx="256" cy="326" r="9" fill="#D69A6A"/>
+  <path d="M154 176
+    q46 -14 92 0
     l4 154
-    q-38 12 -80 0 Z" fill="#BB8B5C" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
+    q-46 12 -96 0 Z" fill="#BB8B5C" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
   <g clip-path="url(#t-pj-reindeer-onesie)"></g>
-  <rect x="192" y="150" width="16" height="30" fill="#E7B58C"/>
-  <ellipse cx="200" cy="118" rx="42" ry="46" fill="#0C0C0C"/>
-  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#E7B58C"/>
-  <path d="M164 108 q36 -34 72 0 q-10 -16 -36 -16 q-26 0 -36 16 Z" fill="#0C0C0C"/>
+  <rect x="192" y="150" width="16" height="30" fill="#D69A6A"/>
+  <path d="M156 118 q44 -60 88 0 l8 96 q-16 8 -22 -4 l-6 -70 q-28 14 -60 0 l-6 70 q-6 12 -22 4 Z" fill="#C9A15A"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#D69A6A"/>
+  <path d="M166 106 q34 -30 68 0 q-8 -14 -34 -14 q-26 0 -34 14 Z" fill="#C9A15A"/>
   <path d="M172 86 q-24 -18 -30 -44 q22 6 30 26 M172 70 q-18 -6 -24 -22" stroke="#6B4226" stroke-width="5" fill="none"/><path d="M228 86 q24 -18 30 -44 q-22 6 -30 26 M228 70 q18 -6 24 -22" stroke="#6B4226" stroke-width="5" fill="none"/>
   
 </svg>

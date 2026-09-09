@@ -185,19 +185,27 @@
   },
   {
     "id": "pj-red-plaid",
-    "label": "Red Plaid Pyjamas",
+    "label": "Red Check Flannel Set",
     "season": "christmas",
     "category": "pyjamas",
     "thumbnail": "/outfits/pj-red-plaid.svg",
-    "prompt": "a matching red and black buffalo-plaid flannel pyjama set with a button-up long-sleeve top and full-length pants, piped trim on the collar and cuffs"
+    "prompt": "a matching red and white buffalo-check flannel pyjama set with a notch-collar button-up long-sleeve top, a chest pocket, and full-length pants"
+  },
+  {
+    "id": "pj-green-satin",
+    "label": "Green Satin Pyjamas",
+    "season": "christmas",
+    "category": "pyjamas",
+    "thumbnail": "/outfits/pj-green-satin.svg",
+    "prompt": "a dark forest-green satin pyjama set with contrast gold piping, a notch collar, a button front, and an embroidered reindeer motif on the chest pocket"
   },
   {
     "id": "pj-fairisle",
-    "label": "Fair Isle Pyjama Set",
+    "label": "Fair Isle Knit Set",
     "season": "christmas",
     "category": "pyjamas",
     "thumbnail": "/outfits/pj-fairisle.svg",
-    "prompt": "a cream knit-look pyjama set with a red and green fair isle snowflake pattern across the chest, ribbed cuffs, and a relaxed pullover top"
+    "prompt": "a cream and red fair isle knit lounge set with a crew-neck jumper, matching fitted leggings, and slouchy cream knit socks"
   },
   {
     "id": "pj-reindeer-onesie",
@@ -318,5 +326,53 @@
     "category": "loungewear",
     "thumbnail": "/outfits/velvet-robe.svg",
     "prompt": "a long burgundy crushed-velvet dressing gown with a shawl collar, wide tie belt, and deep patch pockets, falling to mid-calf"
+  },
+  {
+    "id": "burgundy-velvet-gown",
+    "label": "Burgundy Velvet Gown",
+    "season": "christmas",
+    "category": "dress",
+    "thumbnail": "/outfits/burgundy-velvet-gown.svg",
+    "prompt": "a floor-length burgundy velvet gown with an asymmetric off-the-shoulder draped neckline, long sleeves, a ruched wrap bodice, and a high thigh slit"
+  },
+  {
+    "id": "lace-snowflake-catsuit",
+    "label": "Lace Snowflake Catsuit",
+    "season": "christmas",
+    "category": "dress",
+    "thumbnail": "/outfits/lace-snowflake-catsuit.svg",
+    "prompt": "a sheer black lace catsuit embroidered all over with gold snowflakes, a scalloped plunging V-neckline, long sleeves, and an opaque black brief lining"
+  },
+  {
+    "id": "green-sequin-skirt-set",
+    "label": "Sequin Skirt Set",
+    "season": "christmas",
+    "category": "dress",
+    "thumbnail": "/outfits/green-sequin-skirt-set.svg",
+    "prompt": "a black satin blouse with dramatic voluminous puff sleeves tucked into a high-waisted emerald-green sequin mini skirt"
+  },
+  {
+    "id": "silver-cutout-midi",
+    "label": "Silver Cutout Midi",
+    "season": "christmas",
+    "category": "dress",
+    "thumbnail": "/outfits/silver-cutout-midi.svg",
+    "prompt": "a fitted silver metallic tweed midi dress with thick shoulder straps, a sweetheart neckline, and diamond-shaped cut-outs at the waist"
+  },
+  {
+    "id": "gold-fringe-jumpsuit",
+    "label": "Gold Fringe Jumpsuit",
+    "season": "christmas",
+    "category": "dress",
+    "thumbnail": "/outfits/gold-fringe-jumpsuit.svg",
+    "prompt": "a black tailored jumpsuit with a deep open back and cascading metallic-gold chain fringe falling from the shoulders and upper back, slim cropped trousers"
+  },
+  {
+    "id": "green-velvet-halter-gown",
+    "label": "Green Velvet Halter Gown",
+    "season": "christmas",
+    "category": "dress",
+    "thumbnail": "/outfits/green-velvet-halter-gown.svg",
+    "prompt": "an emerald-green velvet halter gown with a high neck, an open back, gold leaf-and-vine appliqué trailing down one side, and a high thigh slit"
   }
 ]

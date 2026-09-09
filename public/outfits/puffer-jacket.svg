@@ -4,26 +4,26 @@
   </linearGradient></defs>
   <rect width="400" height="500" fill="url(#g-puffer-jacket)"/>
   <ellipse cx="200" cy="486" rx="120" ry="20" fill="#1c1a17" opacity="0.12"/>
-  <clipPath id="t-puffer-jacket"><path d="M162 176
-    q38 -14 76 0
+  <clipPath id="t-puffer-jacket"><path d="M154 176
+    q46 -14 92 0
     l4 154
-    q-38 12 -80 0 Z"/></clipPath>
+    q-46 12 -96 0 Z"/></clipPath>
   
-  <rect x="166" y="326" width="30" height="150" rx="9" fill="#161616"/>
-       <rect x="204" y="326" width="30" height="150" rx="9" fill="#161616"/>
-  <rect x="142" y="180" width="20" height="150" rx="10" fill="#1A1A1A"/>
-    <rect x="238" y="180" width="20" height="150" rx="10" fill="#1A1A1A"/>
-    <circle cx="152" cy="326" r="9" fill="#8D5A34"/>
-    <circle cx="248" cy="326" r="9" fill="#8D5A34"/>
-  <path d="M162 176
-    q38 -14 76 0
+  <rect x="158" y="326" width="38" height="150" rx="9" fill="#161616"/>
+       <rect x="204" y="326" width="38" height="150" rx="9" fill="#161616"/>
+  <rect x="134" y="180" width="20" height="150" rx="10" fill="#1A1A1A"/>
+    <rect x="246" y="180" width="20" height="150" rx="10" fill="#1A1A1A"/>
+    <circle cx="144" cy="326" r="9" fill="#5E3A22"/>
+    <circle cx="256" cy="326" r="9" fill="#5E3A22"/>
+  <path d="M154 176
+    q46 -14 92 0
     l4 154
-    q-38 12 -80 0 Z" fill="#1A1A1A" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
-  <g clip-path="url(#t-puffer-jacket)"><g stroke="#BB8B5C" stroke-width="6" opacity="0.5"><line x1="162" y1="186" x2="242" y2="186"/><line x1="162" y1="202" x2="242" y2="202"/><line x1="162" y1="218" x2="242" y2="218"/><line x1="162" y1="234" x2="242" y2="234"/><line x1="162" y1="250" x2="242" y2="250"/><line x1="162" y1="266" x2="242" y2="266"/><line x1="162" y1="282" x2="242" y2="282"/><line x1="162" y1="298" x2="242" y2="298"/><line x1="162" y1="314" x2="242" y2="314"/></g></g>
-  <rect x="192" y="150" width="16" height="30" fill="#8D5A34"/>
-  <ellipse cx="200" cy="116" rx="40" ry="44" fill="#9A9A9A"/><circle cx="200" cy="76" r="12" fill="#9A9A9A"/>
-  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#8D5A34"/>
-  <path d="M166 106 q34 -30 68 0 q-8 -14 -34 -14 q-26 0 -34 14 Z" fill="#9A9A9A"/>
+    q-46 12 -96 0 Z" fill="#1A1A1A" stroke="#1c1a17" stroke-opacity="0.14" stroke-width="2"/>
+  <g clip-path="url(#t-puffer-jacket)"><g stroke="#BB8B5C" stroke-width="6" opacity="0.5"><line x1="154" y1="186" x2="250" y2="186"/><line x1="154" y1="202" x2="250" y2="202"/><line x1="154" y1="218" x2="250" y2="218"/><line x1="154" y1="234" x2="250" y2="234"/><line x1="154" y1="250" x2="250" y2="250"/><line x1="154" y1="266" x2="250" y2="266"/><line x1="154" y1="282" x2="250" y2="282"/><line x1="154" y1="298" x2="250" y2="298"/><line x1="154" y1="314" x2="250" y2="314"/></g></g>
+  <rect x="192" y="150" width="16" height="30" fill="#5E3A22"/>
+  <ellipse cx="200" cy="118" rx="42" ry="46" fill="#6B3B1E"/>
+  <ellipse cx="200" cy="126" rx="38" ry="44" fill="#5E3A22"/>
+  <path d="M164 108 q36 -34 72 0 q-10 -16 -36 -16 q-26 0 -36 16 Z" fill="#6B3B1E"/>
   
   
 </svg>
