@@ -247,6 +247,7 @@ button {
   width: 100%;
   aspect-ratio: 4 / 5;
   object-fit: cover;
+  object-position: top center;
   border-radius: 1px;
   display: block;
 }

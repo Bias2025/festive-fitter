@@ -7,9 +7,12 @@ export const PREVIEWS: ReadonlyMap<string, string> = new Map<string, string>([
   ["black-wool-overcoat", "/outfits/previews/black-wool-overcoat.jpg"],
   ["burgundy-snowflake-coat", "/outfits/previews/burgundy-snowflake-coat.jpg"],
   ["burgundy-velvet-gown", "/outfits/previews/burgundy-velvet-gown.jpg"],
+  ["cat-ears", "/outfits/previews/cat-ears.jpg"],
   ["cream-sweater-dress", "/outfits/previews/cream-sweater-dress.jpg"],
   ["crimson-baroque-gown", "/outfits/previews/crimson-baroque-gown.jpg"],
+  ["devil", "/outfits/previews/devil.jpg"],
   ["emerald-velvet-gown", "/outfits/previews/emerald-velvet-gown.jpg"],
+  ["ghost", "/outfits/previews/ghost.jpg"],
   ["gold-fringe-jumpsuit", "/outfits/previews/gold-fringe-jumpsuit.jpg"],
   ["green-cable-knit", "/outfits/previews/green-cable-knit.jpg"],
   ["green-sequin-skirt-set", "/outfits/previews/green-sequin-skirt-set.jpg"],
@@ -24,10 +27,14 @@ export const PREVIEWS: ReadonlyMap<string, string> = new Map<string, string>([
   ["pj-red-plaid", "/outfits/previews/pj-red-plaid.jpg"],
   ["plaid-flannel-shirt", "/outfits/previews/plaid-flannel-shirt.jpg"],
   ["puffer-jacket", "/outfits/previews/puffer-jacket.jpg"],
+  ["pumpkin", "/outfits/previews/pumpkin.jpg"],
   ["red-sequin-slip-dress", "/outfits/previews/red-sequin-slip-dress.jpg"],
   ["silver-cutout-midi", "/outfits/previews/silver-cutout-midi.jpg"],
   ["silver-statement-jacket", "/outfits/previews/silver-statement-jacket.jpg"],
+  ["skeleton", "/outfits/previews/skeleton.jpg"],
   ["sweater", "/outfits/previews/sweater.jpg"],
   ["tartan-wool-coat", "/outfits/previews/tartan-wool-coat.jpg"],
-  ["velvet-robe", "/outfits/previews/velvet-robe.jpg"]
+  ["vampire", "/outfits/previews/vampire.jpg"],
+  ["velvet-robe", "/outfits/previews/velvet-robe.jpg"],
+  ["witch", "/outfits/previews/witch.jpg"]
 ]);
