@@ -1,19 +1,21 @@
 :root {
-  --backdrop: #ffffff;
-  --surface: #f6f3ee;
-  --surface-raised: #efe9df;
-  --paper: #1c1a17; /* primary text */
-  --paper-dim: #6b6459; /* muted text */
-  --rail-line: #e3ddd1;
+  /* StyleMyCrown identity: pure black, white type, monochrome chrome */
+  --backdrop: #000000;
+  --surface: #111111;
+  --surface-raised: #1a1a1a;
+  --paper: #ffffff; /* primary text */
+  --paper-dim: rgba(255, 255, 255, 0.55); /* muted text */
+  --rail-line: rgba(255, 255, 255, 0.14);
   --on-accent: #ffffff; /* text/icons on an accent fill */
 
-  --accent-a: #1b4332; /* holly green (christmas default) */
+  /* Season signal — used sparingly (active toggle, selected ring, CTA) */
+  --accent-a: #1f7a4d; /* holly green (christmas default) */
   --accent-b: #c1272d; /* berry red */
 }
 
 [data-season='halloween'] {
-  --accent-a: #b64f1f; /* pumpkin */
-  --accent-b: #5b2a86; /* violet */
+  --accent-a: #d9622b; /* pumpkin */
+  --accent-b: #7c4dbc; /* violet */
 }
 
 * {
@@ -26,7 +28,9 @@ body {
   margin: 0;
   background: var(--backdrop);
   color: var(--paper);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -37,8 +41,8 @@ h1,
 h2,
 h3,
 .display {
-  font-family: 'Fraunces', Georgia, serif;
-  font-weight: 500;
+  font-family: inherit;
+  font-weight: 600;
   letter-spacing: -0.01em;
   margin: 0;
 }
@@ -50,42 +54,60 @@ button {
 .page {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 48px 24px 96px;
+  padding: 40px 24px 96px;
 }
 
-/* ---- Header ---- */
+/* ---- Header / brand lockup ---- */
 .header {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 14px;
   margin-bottom: 40px;
   border-bottom: 1px solid var(--rail-line);
-  padding-bottom: 32px;
+  padding-bottom: 28px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-mark {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #242424;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.brand-mark svg {
+  width: 22px;
+  height: 22px;
+  fill: #ffffff;
+}
+
+.brand-word {
+  font-size: clamp(22px, 3.4vw, 30px);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: #ffffff;
 }
 
 .header .kicker {
   font-size: 14px;
   color: var(--paper-dim);
-  max-width: 46ch;
-  line-height: 1.5;
-}
-
-.header h1 {
-  font-size: clamp(32px, 5vw, 52px);
-  line-height: 1.05;
-  transition: color 0.4s ease;
-}
-
-.header h1 .accent {
-  color: var(--accent-b);
-  transition: color 0.4s ease;
+  max-width: 48ch;
+  line-height: 1.55;
 }
 
 /* ---- Season toggle ---- */
 .season-toggle {
   display: inline-flex;
   gap: 2px;
-  margin-top: 20px;
+  margin-top: 6px;
   border: 1px solid var(--rail-line);
   padding: 4px;
   border-radius: 999px;
@@ -96,7 +118,7 @@ button {
   border: none;
   background: transparent;
   color: var(--paper-dim);
-  padding: 10px 20px;
+  padding: 9px 20px;
   border-radius: 999px;
   font-size: 14px;
   cursor: pointer;
@@ -113,7 +135,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .category-filter button {
@@ -128,9 +150,9 @@ button {
 }
 
 .category-filter button[aria-pressed='true'] {
-  border-color: var(--accent-b);
+  border-color: rgba(255, 255, 255, 0.6);
   color: var(--paper);
-  background: color-mix(in srgb, var(--accent-b) 18%, transparent);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 /* ---- Main layout: booth + rail ---- */
@@ -149,9 +171,8 @@ button {
 
 /* ---- Booth (photo upload / result) ---- */
 .booth {
-  border: 2px dashed #c9c1b0;
-  border-radius: 4px;
-  background: var(--surface);
+  border-radius: 24px;
+  background: #ffffff;
   aspect-ratio: 3 / 4;
   display: flex;
   flex-direction: column;
@@ -160,6 +181,7 @@ button {
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.16), 0 10px 50px rgba(255, 255, 255, 0.07);
 }
 
 .booth img {
@@ -171,14 +193,14 @@ button {
 .booth .prompt {
   text-align: center;
   padding: 24px;
-  color: var(--paper-dim);
+  color: #6b6b6b;
 }
 
 .booth .prompt strong {
   display: block;
-  color: var(--paper);
-  font-family: 'Fraunces', serif;
-  font-size: 20px;
+  color: #111111;
+  font-weight: 600;
+  font-size: 18px;
   margin-bottom: 6px;
 }
 
@@ -195,14 +217,15 @@ button {
 }
 
 .booth:focus-visible {
-  outline: 2px solid var(--accent-b);
-  outline-offset: 2px;
+  outline: 2px solid #ffffff;
+  outline-offset: 3px;
 }
 
 .booth-label {
   margin-top: 12px;
   font-size: 13px;
   color: var(--paper-dim);
+  text-align: center;
 }
 
 /* ---- Rail (outfit selection) ---- */
@@ -214,7 +237,8 @@ button {
 }
 
 .rail-heading h2 {
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .rail-count {
@@ -230,9 +254,9 @@ button {
 
 .garment {
   border: 1px solid var(--rail-line);
-  background: var(--surface);
-  border-radius: 2px;
-  padding: 10px;
+  background: transparent;
+  border-radius: 10px;
+  padding: 8px;
   cursor: pointer;
   text-align: left;
   transition: border-color 0.2s ease, transform 0.15s ease;
@@ -241,10 +265,11 @@ button {
 
 .garment:hover {
   transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.35);
 }
 
 .garment[aria-pressed='true'] {
-  border-color: var(--accent-b);
+  border-color: #ffffff;
 }
 
 .garment-img {
@@ -258,8 +283,9 @@ button {
   aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: top center;
-  border-radius: 1px;
+  border-radius: 6px;
   display: block;
+  background: var(--surface-raised);
 }
 
 .garment-tag {
@@ -270,8 +296,9 @@ button {
   font-size: 10px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: var(--on-accent);
-  background: rgba(28, 26, 23, 0.72);
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(2px);
   border-radius: 999px;
 }
 
@@ -279,6 +306,7 @@ button {
   display: block;
   font-size: 13px;
   font-weight: 500;
+  padding: 0 2px 2px;
 }
 
 /* ---- Festive-scene toggle ---- */
@@ -295,7 +323,7 @@ button {
 
 .scene-toggle input {
   margin-top: 2px;
-  accent-color: var(--accent-a);
+  accent-color: #ffffff;
   flex-shrink: 0;
 }
 
@@ -314,24 +342,24 @@ button {
 }
 
 .try-btn {
-  background: var(--accent-b);
-  color: var(--on-accent);
+  background: #ffffff;
+  color: #000000;
   border: none;
-  padding: 14px 28px;
+  padding: 13px 28px;
   border-radius: 999px;
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
-  transition: filter 0.2s ease, opacity 0.2s ease;
+  transition: opacity 0.2s ease, background 0.2s ease;
 }
 
 .try-btn:disabled {
-  opacity: 0.4;
+  opacity: 0.32;
   cursor: not-allowed;
 }
 
 .try-btn:not(:disabled):hover {
-  filter: brightness(1.1);
+  background: rgba(255, 255, 255, 0.85);
 }
 
 .status-text {
@@ -340,7 +368,7 @@ button {
 }
 
 .status-text.error {
-  color: #b3261e;
+  color: #ff6b6b;
 }
 
 .download-link {

@@ -98,13 +98,20 @@ export default function Home() {
   return (
     <div data-season={season} className="page">
       <header className="header">
+        <div className="brand">
+          <span className="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 8l3.5 4L9 6l3 5 3-5 3.5 6L21 8l-1.6 10.2a1 1 0 0 1-1 .8H4.6a1 1 0 0 1-1-.8L2 8zm2.8 12.8h14.4v1.2H4.8v-1.2z" />
+            </svg>
+          </span>
+          <span className="brand-word">
+            <h1 style={{ font: 'inherit', margin: 0 }}>Style My Season</h1>
+          </span>
+        </div>
         <span className="kicker">
           Upload a photo, pick something from the rack, and see the outfit on you before you buy it,
           sew it, or talk yourself out of it.
         </span>
-        <h1>
-          StyleMy<span className="accent">Season</span>
-        </h1>
 
         <div className="season-toggle" role="group" aria-label="Season">
           <button aria-pressed={season === 'halloween'} onClick={() => handleSeasonChange('halloween')}>
