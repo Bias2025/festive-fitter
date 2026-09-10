@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo, useRef, useState } from 'react';
-import { Category, OUTFITS, Season, categoriesInSeason, outfitsBySeason } from '@/lib/outfits';
+import { Category, OUTFITS, Season, categoriesInSeason, outfitsBySeason, sceneFor } from '@/lib/outfits';
 
 type Status = 'idle' | 'loading' | 'error' | 'done';
 type CategoryFilter = Category | 'all';
@@ -26,6 +26,7 @@ export default function Home() {
   const [resultUrl, setResultUrl] = useState<string | null>(null);
   const [status, setStatus] = useState<Status>('idle');
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const [festiveScene, setFestiveScene] = useState(true);
 
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -69,6 +70,7 @@ export default function Home() {
       const form = new FormData();
       form.append('photo', photoFile);
       form.append('outfitPrompt', selectedOutfit.prompt);
+      if (festiveScene) form.append('scene', sceneFor(selectedOutfit));
 
       const res = await fetch('/api/tryon', { method: 'POST', body: form });
       const data = await res.json();
@@ -161,6 +163,22 @@ export default function Home() {
               </button>
             ))}
           </div>
+
+          <label className="scene-toggle">
+            <input
+              type="checkbox"
+              checked={festiveScene}
+              onChange={(e) => setFestiveScene(e.target.checked)}
+            />
+            <span>
+              Set the {season === 'halloween' ? 'Halloween' : 'Christmas'} scene
+              <em>
+                {festiveScene
+                  ? ' — puts you in a matching backdrop'
+                  : ' — keeps your original background'}
+              </em>
+            </span>
+          </label>
 
           <div className="action-row">
             <button

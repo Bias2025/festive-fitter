@@ -27,6 +27,25 @@ export interface Outfit {
   preview?: string;
   /** Description fed to FLUX Kontext for the try-on and for preview generation. */
   prompt: string;
+  /**
+   * Optional per-item scene/backdrop. When the "festive scene" option is on,
+   * this (or the season default) is sent so the result is restyled into a
+   * matching setting instead of keeping the original background.
+   */
+  scene?: string;
+}
+
+/** Default backdrop per season, used when an outfit has no `scene` of its own. */
+export const SEASON_SCENES: Record<Season, string> = {
+  christmas:
+    'a cosy room decorated for Christmas — a decorated tree with warm fairy lights, garland and candles, soft golden bokeh in the background',
+  halloween:
+    'an atmospheric Halloween setting — dim warm light, carved jack-o-lanterns, cobwebs and flickering candles against a moody dark background'
+};
+
+/** The scene description to send for an outfit (per-item override, else season default). */
+export function sceneFor(outfit: Pick<Outfit, 'scene' | 'season'>): string {
+  return outfit.scene ?? SEASON_SCENES[outfit.season];
 }
 
 export const OUTFITS: Outfit[] = (catalog as Omit<Outfit, 'preview'>[]).map((o) => {

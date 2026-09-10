@@ -17,6 +17,8 @@ export async function POST(req: NextRequest) {
   const form = await req.formData();
   const photo = form.get('photo');
   const outfitPrompt = form.get('outfitPrompt');
+  const sceneRaw = form.get('scene');
+  const scene = typeof sceneRaw === 'string' && sceneRaw.trim() ? sceneRaw.trim() : null;
 
   if (!(photo instanceof File) || typeof outfitPrompt !== 'string') {
     return NextResponse.json({ error: 'Missing photo or outfitPrompt in request.' }, { status: 400 });
@@ -26,7 +28,12 @@ export async function POST(req: NextRequest) {
   const base64 = Buffer.from(bytes).toString('base64');
   const dataUrl = `data:${photo.type};base64,${base64}`;
 
-  const prompt = `Change the person's outfit to ${outfitPrompt}. Keep the person's face, pose, body proportions, and the background exactly the same. Only change the clothing. Make the new outfit look photorealistic and well-fitted, with natural lighting and shadows that match the original photo.`;
+  const prompt = scene
+    ? `Change the person's outfit to ${outfitPrompt}, and change the setting around them to ${scene}. ` +
+      `Keep the person's face, hairstyle, pose, and body proportions exactly the same. ` +
+      `Replace both the clothing and the background. Blend them into one cohesive photorealistic image, ` +
+      `with lighting, colour and shadows on the person consistent with the new setting.`
+    : `Change the person's outfit to ${outfitPrompt}. Keep the person's face, pose, body proportions, and the background exactly the same. Only change the clothing. Make the new outfit look photorealistic and well-fitted, with natural lighting and shadows that match the original photo.`;
 
   try {
     const createRes = await fetch(REPLICATE_API_URL, {

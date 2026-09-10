@@ -271,9 +271,32 @@ button {
   font-weight: 500;
 }
 
+/* ---- Festive-scene toggle ---- */
+.scene-toggle {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 24px;
+  font-size: 13px;
+  color: var(--paper);
+  cursor: pointer;
+  max-width: 42ch;
+}
+
+.scene-toggle input {
+  margin-top: 2px;
+  accent-color: var(--accent-a);
+  flex-shrink: 0;
+}
+
+.scene-toggle em {
+  font-style: normal;
+  color: var(--paper-dim);
+}
+
 /* ---- Action row ---- */
 .action-row {
-  margin-top: 28px;
+  margin-top: 16px;
   display: flex;
   align-items: center;
   gap: 16px;
