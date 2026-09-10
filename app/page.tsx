@@ -38,8 +38,14 @@ export default function Home() {
   );
   const selectedOutfit = OUTFITS.find((o) => o.id === selectedOutfitId) || null;
 
+  function openFilePicker() {
+    fileInputRef.current?.click();
+  }
+
   function handlePhotoChange(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
+    // Allow re-picking the same file later.
+    e.target.value = '';
     if (!file) return;
     setPhotoFile(file);
     setResultUrl(null);
@@ -112,7 +118,18 @@ export default function Home() {
 
       <div className="studio">
         <div>
-          <div className="booth" onClick={() => fileInputRef.current?.click()}>
+          <div
+            className="booth"
+            role="button"
+            tabIndex={0}
+            onClick={openFilePicker}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                openFilePicker();
+              }
+            }}
+          >
             {displayImage ? (
               <img src={displayImage} alt={resultUrl ? 'You in the selected outfit' : 'Your uploaded photo'} />
             ) : (
@@ -121,7 +138,14 @@ export default function Home() {
                 Tap to upload a clear, front-facing photo
               </div>
             )}
-            <input ref={fileInputRef} type="file" accept="image/*" onChange={handlePhotoChange} />
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="image/*"
+              onChange={handlePhotoChange}
+              tabIndex={-1}
+              aria-hidden="true"
+            />
           </div>
           <div className="booth-label">
             {photoFile ? photoFile.name : 'JPG or PNG, one person, plain background works best'}
