@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { recordTryOn } from '@/lib/analytics';
 
 export const runtime = 'nodejs';
 export const maxDuration = 60;
@@ -17,6 +18,8 @@ export async function POST(req: NextRequest) {
   const form = await req.formData();
   const photo = form.get('photo');
   const outfitPrompt = form.get('outfitPrompt');
+  const outfitIdRaw = form.get('outfitId');
+  const outfitId = typeof outfitIdRaw === 'string' ? outfitIdRaw : null;
   const sceneRaw = form.get('scene');
   const scene = typeof sceneRaw === 'string' && sceneRaw.trim() ? sceneRaw.trim() : null;
 
@@ -84,6 +87,7 @@ export async function POST(req: NextRequest) {
     }
 
     const outputUrl = Array.isArray(prediction.output) ? prediction.output[0] : prediction.output;
+    if (outfitId) await recordTryOn(outfitId);
     return NextResponse.json({ imageUrl: outputUrl });
   } catch (err: any) {
     return NextResponse.json({ error: err?.message || 'Unknown server error.' }, { status: 500 });

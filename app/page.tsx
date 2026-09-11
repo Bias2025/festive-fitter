@@ -76,6 +76,7 @@ export default function Home() {
       const form = new FormData();
       form.append('photo', photoFile);
       form.append('outfitPrompt', selectedOutfit.prompt);
+      form.append('outfitId', selectedOutfit.id);
       if (festiveScene) form.append('scene', sceneFor(selectedOutfit));
 
       const res = await fetch('/api/tryon', { method: 'POST', body: form });
