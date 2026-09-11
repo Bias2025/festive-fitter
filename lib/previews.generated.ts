@@ -32,6 +32,7 @@ export const PREVIEWS: ReadonlyMap<string, string> = new Map<string, string>([
   ["pj-santa-lounge", "/outfits/previews/pj-santa-lounge.jpg"],
   ["pj-tartan-nightdress", "/outfits/previews/pj-tartan-nightdress.jpg"],
   ["pj-white-waffle", "/outfits/previews/pj-white-waffle.jpg"],
+  ["plaid-scarf", "/outfits/previews/plaid-scarf.jpg"],
   ["plaid-flannel-shirt", "/outfits/previews/plaid-flannel-shirt.jpg"],
   ["puffer-jacket", "/outfits/previews/puffer-jacket.jpg"],
   ["pumpkin", "/outfits/previews/pumpkin.jpg"],
