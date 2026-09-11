@@ -19,14 +19,14 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     title: 'Style My Season',
-    statusBarStyle: 'black-translucent'
+    statusBarStyle: 'default'
   }
 };
 
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#000000'
+  themeColor: '#ffffff'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

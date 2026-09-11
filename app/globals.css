@@ -1,11 +1,11 @@
 :root {
-  /* StyleMyCrown identity: pure black, white type, monochrome chrome */
-  --backdrop: #000000;
-  --surface: #111111;
-  --surface-raised: #1a1a1a;
-  --paper: #ffffff; /* primary text */
-  --paper-dim: rgba(255, 255, 255, 0.55); /* muted text */
-  --rail-line: rgba(255, 255, 255, 0.14);
+  /* StyleMyCrown identity: white ground, black type, monochrome chrome */
+  --backdrop: #ffffff;
+  --surface: #f6f5f3;
+  --surface-raised: #ececea;
+  --paper: #111111; /* primary text */
+  --paper-dim: rgba(17, 17, 17, 0.6); /* muted text */
+  --rail-line: rgba(17, 17, 17, 0.14);
   --on-accent: #ffffff; /* text/icons on an accent fill */
 
   /* Season signal — used sparingly (active toggle, selected ring, CTA) */
@@ -93,7 +93,7 @@ button {
   font-size: clamp(22px, 3.4vw, 30px);
   font-weight: 600;
   letter-spacing: -0.015em;
-  color: #ffffff;
+  color: var(--paper);
 }
 
 .header .kicker {
@@ -150,9 +150,9 @@ button {
 }
 
 .category-filter button[aria-pressed='true'] {
-  border-color: rgba(255, 255, 255, 0.6);
+  border-color: rgba(17, 17, 17, 0.5);
   color: var(--paper);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(17, 17, 17, 0.06);
 }
 
 /* ---- Main layout: booth + rail ---- */
@@ -181,7 +181,7 @@ button {
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.16), 0 10px 50px rgba(255, 255, 255, 0.07);
+  box-shadow: 0 0 0 1px rgba(17, 17, 17, 0.1), 0 10px 40px rgba(17, 17, 17, 0.08);
 }
 
 .booth img {
@@ -217,7 +217,7 @@ button {
 }
 
 .booth:focus-visible {
-  outline: 2px solid #ffffff;
+  outline: 2px solid #111111;
   outline-offset: 3px;
 }
 
@@ -265,11 +265,11 @@ button {
 
 .garment:hover {
   transform: translateY(-2px);
-  border-color: rgba(255, 255, 255, 0.35);
+  border-color: rgba(17, 17, 17, 0.3);
 }
 
 .garment[aria-pressed='true'] {
-  border-color: #ffffff;
+  border-color: #111111;
 }
 
 .garment-img {
@@ -323,7 +323,7 @@ button {
 
 .scene-toggle input {
   margin-top: 2px;
-  accent-color: #ffffff;
+  accent-color: #111111;
   flex-shrink: 0;
 }
 
@@ -342,8 +342,8 @@ button {
 }
 
 .try-btn {
-  background: #ffffff;
-  color: #000000;
+  background: #111111;
+  color: #ffffff;
   border: none;
   padding: 13px 28px;
   border-radius: 999px;
@@ -359,7 +359,7 @@ button {
 }
 
 .try-btn:not(:disabled):hover {
-  background: rgba(255, 255, 255, 0.85);
+  background: #2c2c2c;
 }
 
 .status-text {
@@ -368,7 +368,7 @@ button {
 }
 
 .status-text.error {
-  color: #ff6b6b;
+  color: #c62828;
 }
 
 .download-link {
@@ -376,4 +376,76 @@ button {
   color: var(--paper);
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+/* ---- Share row ---- */
+.share-row {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.share-divider {
+  width: 1px;
+  height: 22px;
+  background: var(--rail-line);
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--rail-line);
+  background: transparent;
+  color: var(--paper);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.share-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.share-btn:not(:disabled):hover {
+  border-color: rgba(17, 17, 17, 0.4);
+  background: rgba(17, 17, 17, 0.05);
+}
+
+.share-btn svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+}
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid var(--rail-line);
+  background: transparent;
+  color: var(--paper);
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+  flex-shrink: 0;
+}
+
+.icon-btn:hover {
+  border-color: rgba(17, 17, 17, 0.4);
+  background: rgba(17, 17, 17, 0.05);
+}
+
+.icon-btn svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
 }
