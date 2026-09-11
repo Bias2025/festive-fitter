@@ -6,6 +6,7 @@ export const PREVIEWS: ReadonlyMap<string, string> = new Map<string, string>([
   ["black-velvet-jumpsuit", "/outfits/previews/black-velvet-jumpsuit.jpg"],
   ["black-wool-overcoat", "/outfits/previews/black-wool-overcoat.jpg"],
   ["burgundy-snowflake-coat", "/outfits/previews/burgundy-snowflake-coat.jpg"],
+  ["burgundy-henley", "/outfits/previews/burgundy-henley.jpg"],
   ["burgundy-velvet-gown", "/outfits/previews/burgundy-velvet-gown.jpg"],
   ["camel-knit", "/outfits/previews/camel-knit.jpg"],
   ["cat-ears", "/outfits/previews/cat-ears.jpg"],
