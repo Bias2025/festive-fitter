@@ -53,6 +53,31 @@ vercel
 Add `REPLICATE_API_TOKEN` as an environment variable in the Vercel project
 settings (not just `.env.local`, which doesn't ship with the deploy).
 
+## Progressive Web App
+
+The app is installable (Add to Home Screen / desktop install) and works
+offline for everything except generating a new look, which needs the network:
+
+- `public/manifest.webmanifest` — name, black theme colour, standalone
+  display, and icons (192/512, plus maskable variants for Android's adaptive
+  icon mask).
+- `public/icons/*` — generated from the crown mark in the header
+  (`scripts/gen-thumbnails.mjs` doesn't touch these; regenerate by hand if the
+  mark ever changes — see the inline SVG path in `app/page.tsx`).
+- `public/sw.js` + `app/register-sw.tsx` — a small service worker
+  (stale-while-revalidate for static assets, network-first for page loads,
+  complete passthrough for `/api/*` so try-on requests always hit the
+  network). It only registers in production builds (`npm run build && npm
+  start`) so `next dev` never serves you a stale cached page.
+- `app/layout.tsx` — `viewport.themeColor`, `metadata.manifest`,
+  `metadata.icons`, and `metadata.appleWebApp` for iOS home-screen behaviour.
+
+To verify installability after deploying: open the site in Chrome desktop or
+Android and look for the install icon in the address bar / "Add to Home
+Screen" in the menu; on iOS Safari use Share → Add to Home Screen (iOS
+ignores the web manifest and uses the `apple-touch-icon` + meta tags instead,
+which are already wired up).
+
 ## The catalog
 
 The catalog lives in `lib/catalog.json` — one entry per piece, shared by the
